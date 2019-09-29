@@ -28,7 +28,7 @@ class Api::V1::PlaylistsController < ApplicationController
     @playlist = Playlist.find(params[:id])
     @playlist.delete
 
-    render json: {playlistId @playlist.id}
+    render json: {playlistId: @playlist.id}
   end
 
   private
