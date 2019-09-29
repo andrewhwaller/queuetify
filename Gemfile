@@ -21,14 +21,25 @@ gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem 'rack-cors'
+gem 'rack-cors'
+gem 'mongoid', '~> 7.0'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
+  gem 'rspec-rails', '~> 3.8'
+  gem 'database_cleaner', '~> 1.7'
+  gem 'factory_bot_rails'
+  gem 'cucumber-rails', '~> 1.8', require: false
 end
 
 group :development do
+end
+
+group :test do
+  gem 'capybara'
+  gem 'mongoid-rspec', git: 'https://github.com/mongoid-rspec/mongoid-rspec.git'
+  gem 'email_spec', '~> 2.1'
 end
 
 
