@@ -1,34 +1,34 @@
 class Api::V1::PlaylistsController < ApplicationController
 
   def index
-    @playlists = Playlist.all
+    playlists = Playlist.all
 
-    render json: @playlists, status: 200
+    render json: playlists, status: 200
   end
 
   def show
-    @playlist = Playlist.find(params[:id])
+    playlist = Playlist.find(params[:id])
 
-    render json: @playlist, status: 200
+    render json: playlist, status: 200
   end
 
   def create
-    @playlist = Playlist.create(playlist_params)
+    playlist = Playlist.create(playlist_params)
 
-    render json: @playlist, status: 200
+    render json: playlist, status: 200
   end 
 
   def update
-    @playlist = Playlist.find(params[:id])
-    @playlist.update(playlist_params)
-    render json: @playlist, status: 200
+    playlist = Playlist.find(params[:id])
+    playlist.update(playlist_params)
+    render json: playlist, status: 200
   end
 
   def destroy
-    @playlist = Playlist.find(params[:id])
-    @playlist.delete
+    playlist = Playlist.find(params[:id])
+    playlist.delete
 
-    render json: {playlistId: @playlist.id}
+    render json: {playlistId: playlist.id}
   end
 
   private
