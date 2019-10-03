@@ -9,231 +9,529 @@
 
   <!-- Site Properties -->
   <title>Homepage - Semantic</title>
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/reset.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/site.css">
-
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/container.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/grid.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/header.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/image.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/menu.css">
-
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/divider.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/dropdown.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/segment.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/button.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/list.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/icon.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/sidebar.css">
-  <link rel="stylesheet" type="text/css" href="../semantic/dist/components/transition.css">
-
-  <style type="text/css">
-
-    .hidden.menu {
-      display: none;
-    }
-
-    .masthead.segment {
-      min-height: 700px;
-      padding: 1em 0em;
-    }
-    .masthead .logo.item img {
-      margin-right: 1em;
-    }
-    .masthead .ui.menu .ui.button {
-      margin-left: 0.5em;
-    }
-    .masthead h1.ui.header {
-      margin-top: 3em;
-      margin-bottom: 0em;
-      font-size: 4em;
-      font-weight: normal;
-    }
-    .masthead h2 {
-      font-size: 1.7em;
-      font-weight: normal;
-    }
-
-    .ui.vertical.stripe {
-      padding: 8em 0em;
-    }
-    .ui.vertical.stripe h3 {
-      font-size: 2em;
-    }
-    .ui.vertical.stripe .button + h3,
-    .ui.vertical.stripe p + h3 {
-      margin-top: 3em;
-    }
-    .ui.vertical.stripe .floated.image {
-      clear: both;
-    }
-    .ui.vertical.stripe p {
-      font-size: 1.33em;
-    }
-    .ui.vertical.stripe .horizontal.divider {
-      margin: 3em 0em;
-    }
-
-    .quote.stripe.segment {
-      padding: 0em;
-    }
-    .quote.stripe.segment .grid .column {
-      padding-top: 5em;
-      padding-bottom: 5em;
-    }
-
-    .footer.segment {
-      padding: 5em 0em;
-    }
-
-    .secondary.pointing.menu .toc.item {
-      display: none;
-    }
-
-    @media only screen and (max-width: 700px) {
-      .ui.fixed.menu {
-        display: none !important;
-      }
-      .secondary.pointing.menu .item,
-      .secondary.pointing.menu .menu {
-        display: none;
-      }
-      .secondary.pointing.menu .toc.item {
-        display: block;
-      }
-      .masthead.segment {
-        min-height: 350px;
-      }
-      .masthead h1.ui.header {
-        font-size: 2em;
-        margin-top: 1.5em;
-      }
-      .masthead h2 {
-        margin-top: 0.5em;
-        font-size: 1.5em;
-      }
-    }
-
-
-  </style>
+  <link rel="stylesheet" href="semantic/dist/semantic.min.css">
+  <link rel="stylesheet" href="css/style.css">
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script src="../semantic/dist/components/visibility.js"></script>
-  <script src="../semantic/dist/components/sidebar.js"></script>
-  <script src="../semantic/dist/components/transition.js"></script>
-  <script>
-  $(document)
-    .ready(function() {
-
-      // fix menu when passed
-      $('#top-menu')
-        .visibility({
-          once: false,
-          onBottomPassed: function() {
-            $('.fixed.menu').transition('fade in');
-          },
-          onBottomPassedReverse: function() {
-            $('.fixed.menu').transition('fade out');
-          }
-        })
-      ;
-
-      // create sidebar and attach to menu open
-      $('.ui.sidebar')
-        .sidebar('attach events', '.toc.item')
-      ;
-
-    })
-  ;
-  </script>
 </head>
 <body>
-
-<!-- Following Menu -->
-<div class="ui large top fixed hidden menu inverted" id="top-menu">
-  <div class="ui container">
-    <a class="active item">Home</a>
-    <a class="item">Work</a>
-    <a class="item">Company</a>
-    <a class="item">Careers</a>
-    <div class="right menu">
-      <div class="item">
-        <a class="ui button">Log in</a>
-      </div>
-      <div class="item">
-        <a class="ui primary button">Sign Up</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Sidebar Menu -->
-<div class="ui vertical inverted sidebar menu">
-  <a class="active item">Home</a>
-  <a class="item">Work</a>
-  <a class="item">Company</a>
-  <a class="item">Careers</a>
-  <a class="item">Login</a>
-  <a class="item">Signup</a>
-</div>
-
-
-<!-- Page Contents -->
-<div class="pusher">
-  <div class="ui inverted vertical masthead center aligned segment">
-
-    <div class="ui container">
-      <div class="ui large secondary inverted pointing menu">
-        <a class="toc item">
-          <i class="sidebar icon"></i>
-        </a>
-        <a class="active item">Home</a>
-        <a class="item">Work</a>
-        <a class="item">Company</a>
-        <a class="item">Careers</a>
-        <div class="right item">
-          <a class="ui inverted button">Log in</a>
-          <a class="ui inverted button">Sign Up</a>
+      <!--sidebar-->
+      <div class="ui sidebar borderless inverted vertical menu sidebar-menu" id="sidebar">
+          <div class="item">
+            <div class="header">
+              General
+            </div>
+            <div class="menu">
+              <a href="#" class="item"><i class="icon home"></i> Dashboard</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="header">Playlists</div>
+            <div class="menu">
+              <a href="#" class="item"><i class="icon angle double right"></i> View all playlists</a>
+              <a href="#" class="item"><i class="icon list"></i> Playlist 1</a>
+              <a href="#" class="item"><i class="icon list"></i> Playlist 2</a>
+              <a href="#" class="item"><i class="icon list"></i> Playlist 3</a>
+              <a href="#" class="item"><i class="icon list"></i> Playlist 4</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="header">Web Queue</div>
+            <div class="menu">
+              <a href="#" class="item"><i class="icon angle double right"></i> View all queued songs</a>
+              <a href="#" class="item"><i class="icon music"></i> Song 1</a>
+              <a href="#" class="item"><i class="icon music"></i> Song 2</a>
+              <a href="#" class="item"><i class="icon music"></i> Song 3</a>
+              <a href="#" class="item"><i class="icon music"></i> Song 4</a>
+            </div>
+          </div>
+          <div class="item">
+            <div class="header">Public Queue</div>
+            <div class="menu">
+              <a href="#" class="item"><i class="icon angle double right"></i> View all queued songs</a>
+              <a href="#" class="item"><i class="icon music"></i> Song 1</a>
+              <a href="#" class="item"><i class="icon music"></i> Song 2</a>
+              <a href="#" class="item"><i class="icon music"></i> Song 3</a>
+              <a href="#" class="item"><i class="icon music"></i> Song 4</a>
+            </div>
+          </div>    
+          <!-- search bar -->
+          <div class="item">
+            <div class="form">
+              <div class="ui mini action borderless input">
+                <input type="text" placeholder="Search..." />
+                <button class="ui positive mini icon button" type="submit">
+                  <i class="search icon"></i>
+                </button>
+              </div>
+            </div>
+          </div>  
         </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-
-  <div class="ui inverted vertical footer segment">
-    <div class="ui container">
-      <div class="ui stackable inverted divided equal height stackable grid">
-        <div class="three wide column">
-          <h4 class="ui inverted header">About</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Sitemap</a>
-            <a href="#" class="item">Contact Us</a>
-            <a href="#" class="item">Religious Ceremonies</a>
-            <a href="#" class="item">Gazebo Plans</a>
+        <!--sidebar-->
+        <!--main nav-->
+        <nav class="ui top fixed borderless inverted menu">
+          <div class="left menu">
+            <a href="#" class="sidebar-menu-toggler item" data-target="#sidebar">
+              <i class="sidebar icon"></i>
+            </a>
+            <div class="item">
+              <a href="#" class="ui logo icon">
+                <i class="large green icon chevron circle right"></i>
+              </a>
+              <a href="/">
+                <b class="ui fluid inverted header">Queuetify</b>
+              </a>
+            </div>
+            <div class="item">
+              <p><i>get your music in line</i></p>
+            </div>
+          </div>
+          <div class="right menu">
+            <a href="#" class="item">
+              <i class="bell icon"></i>
+            </a>
+            <div class="ui dropdown item">
+              <i class="user circle icon"></i>
+              <div class="menu">
+                <a href="#" class="item">
+                  <i class="info circle icon"></i> Profile
+                </a>
+                <a href="#" class="item">
+                  <i class="info wrench icon"></i> Settings
+                </a>
+                <a href="#" class="item">
+                  <i class="info logout icon"></i> Logout
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!--main nav-->
+    
+        <div class="pusher">
+          <div class="main-content">
+            <div class="ui stackable padded grid">
+              <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                <div class="ui fluid card">
+                  <div class="ui slide masked reveal image">
+                    <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+                    <table class="ui padded selectable table hidden content">
+                        <thead class="full-width">
+                          <tr><th class="twelve wide">Song title</th>
+                          <th class="four wide">Length</th>
+                        </tr></thead>
+                        <tbody>
+                          <tr>
+                            <td data-label="Song title">Song 1</td>
+                            <td data-label="Length">12:51</td>
+                          </tr>
+                          <tr>
+                            <td data-label="Song title">Song 1</td>
+                            <td data-label="Length">12:51</td>
+                          </tr>
+                          <tr>
+                            <td data-label="Song title">Song 1</td>
+                            <td data-label="Length">12:51</td>
+                          </tr>
+                          <tr>
+                            <td data-label="Song title">Song 1</td>
+                            <td data-label="Length">12:51</td>
+                          </tr>
+                          <tr>
+                            <td data-label="Song title">Song 1</td>
+                            <td data-label="Length">12:51</td>
+                          </tr>
+                          <tr>
+                            <td data-label="Song title">Song 1</td>
+                            <td data-label="Length">12:51</td>
+                          </tr>                      
+                        </tbody>
+                      </table>
+                  
+                  </div>
+                  <div class="content">
+                    <a class="header">Playlist 1</a>
+                    <div class="meta">
+                      <span class="date">Created in Sep 2014</span>
+                    </div>
+                  </div>
+                  <div class="extra content">
+                    <a>
+                      <i class="music icon"></i>
+                      21 songs
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                  <div class="ui fluid card">
+                    <div class="ui slide masked reveal image">
+                      <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+                      <table class="ui padded selectable table hidden content">
+                          <thead class="full-width">
+                            <tr><th class="twelve wide">Song title</th>
+                            <th class="four wide">Length</th>
+                          </tr></thead>
+                          <tbody>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>                      
+                          </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="content">
+                      <a class="header">Playlist 1</a>
+                      <div class="meta">
+                        <span class="date">Created in Sep 2014</span>
+                      </div>
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <i class="music icon"></i>
+                        21 songs
+                      </a>
+                    </div>
+                  </div>
+              </div>
+              <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                  <div class="ui fluid card">
+                    <div class="ui slide masked reveal image">
+                      <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+                      <table class="ui padded selectable table hidden content">
+                          <thead class="full-width">
+                            <tr><th class="twelve wide">Song title</th>
+                            <th class="four wide">Length</th>
+                          </tr></thead>
+                          <tbody>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>                      
+                          </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="content">
+                      <a class="header">Playlist 1</a>
+                      <div class="meta">
+                        <span class="date">Created in Sep 2014</span>
+                      </div>
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <i class="music icon"></i>
+                        21 songs
+                      </a>
+                    </div>
+                  </div>
+              </div>
+              <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                    <div class="ui fluid card">
+                      <div class="ui slide masked reveal image">
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+                        <table class="ui padded selectable table hidden content">
+                            <thead class="full-width">
+                              <tr><th class="twelve wide">Song title</th>
+                              <th class="four wide">Length</th>
+                            </tr></thead>
+                            <tbody>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>                      
+                            </tbody>
+                          </table>
+                      
+                      </div>
+                      <div class="content">
+                        <a class="header">Playlist 1</a>
+                        <div class="meta">
+                          <span class="date">Created in Sep 2014</span>
+                        </div>
+                      </div>
+                      <div class="extra content">
+                        <a>
+                          <i class="music icon"></i>
+                          21 songs
+                        </a>
+                      </div>
+                    </div>
+              </div>
+              <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                  <div class="ui fluid card">
+                    <div class="ui slide masked reveal image">
+                      <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+                      <table class="ui padded selectable table hidden content">
+                          <thead class="full-width">
+                            <tr><th class="twelve wide">Song title</th>
+                            <th class="four wide">Length</th>
+                          </tr></thead>
+                          <tbody>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>
+                            <tr>
+                              <td data-label="Song title">Song 1</td>
+                              <td data-label="Length">12:51</td>
+                            </tr>                      
+                          </tbody>
+                        </table>
+                    
+                    </div>
+                    <div class="content">
+                      <a class="header">Playlist 1</a>
+                      <div class="meta">
+                        <span class="date">Created in Sep 2014</span>
+                      </div>
+                    </div>
+                    <div class="extra content">
+                      <a>
+                        <i class="music icon"></i>
+                        21 songs
+                      </a>
+                    </div>
+                  </div>
+              </div>
+              <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                    <div class="ui fluid card">
+                      <div class="ui slide masked reveal image">
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+                        <table class="ui padded selectable table hidden content">
+                            <thead class="full-width">
+                              <tr><th class="twelve wide">Song title</th>
+                              <th class="four wide">Length</th>
+                            </tr></thead>
+                            <tbody>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>                      
+                            </tbody>
+                          </table>
+                      
+                      </div>
+                      <div class="content">
+                        <a class="header">Playlist 1</a>
+                        <div class="meta">
+                          <span class="date">Created in Sep 2014</span>
+                        </div>
+                      </div>
+                      <div class="extra content">
+                        <a>
+                          <i class="music icon"></i>
+                          21 songs
+                        </a>
+                      </div>
+                    </div>
+              </div>
+              <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                    <div class="ui fluid card">
+                      <div class="ui slide masked reveal image">
+                        <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+                        <table class="ui padded selectable table hidden content">
+                            <thead class="full-width">
+                              <tr><th class="twelve wide">Song title</th>
+                              <th class="four wide">Length</th>
+                            </tr></thead>
+                            <tbody>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>
+                              <tr>
+                                <td data-label="Song title">Song 1</td>
+                                <td data-label="Length">12:51</td>
+                              </tr>                      
+                            </tbody>
+                          </table>
+                      
+                      </div>
+                      <div class="content">
+                        <a class="header">Playlist 1</a>
+                        <div class="meta">
+                          <span class="date">Created in Sep 2014</span>
+                        </div>
+                      </div>
+                      <div class="extra content">
+                        <a>
+                          <i class="music icon"></i>
+                          21 songs
+                        </a>
+                      </div>
+                    </div>
+              </div>
+              <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                      <div class="ui fluid card">
+                        <div class="ui slide masked reveal image">
+                          <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+                          <table class="ui padded selectable table hidden content">
+                              <thead class="full-width">
+                                <tr><th class="twelve wide">Song title</th>
+                                <th class="six wide">Length</th>
+                              </tr></thead>
+                              <tbody>
+                                <tr>
+                                  <td data-label="Song title">Song 1</td>
+                                  <td data-label="Length">12:51</td>
+                                </tr>
+                                <tr>
+                                  <td data-label="Song title">Song 1</td>
+                                  <td data-label="Length">12:51</td>
+                                </tr>
+                                <tr>
+                                  <td data-label="Song title">Song 1</td>
+                                  <td data-label="Length">12:51</td>
+                                </tr>
+                                <tr>
+                                  <td data-label="Song title">Song 1</td>
+                                  <td data-label="Length">12:51</td>
+                                </tr>
+                                <tr>
+                                  <td data-label="Song title">Song 1</td>
+                                  <td data-label="Length">12:51</td>
+                                </tr>
+                                <tr>
+                                  <td data-label="Song title">Song 1</td>
+                                  <td data-label="Length">12:51</td>
+                                </tr>                      
+                              </tbody>
+                            </table>
+                        
+                        </div>
+                        <div class="content">
+                          <a class="header">Playlist 1</a>
+                          <div class="meta">
+                            <span class="date">Created in Sep 2014</span>
+                          </div>
+                        </div>
+                        <div class="extra content">
+                          <a>
+                            <i class="music icon"></i>
+                            21 songs
+                          </a>
+                        </div>
+                      </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="three wide column">
-          <h4 class="ui inverted header">Services</h4>
-          <div class="ui inverted link list">
-            <a href="#" class="item">Banana Pre-Order</a>
-            <a href="#" class="item">DNA FAQ</a>
-            <a href="#" class="item">How To Access</a>
-            <a href="#" class="item">Favorite X-Men</a>
-          </div>
-        </div>
-        <div class="seven wide column">
-          <h4 class="ui inverted header">Footer Header</h4>
-          <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
+<script src="./js/script.js"></script>
+<script src="semantic/dist/semantic.min.js"></script>
 </body>
 
 </html>
