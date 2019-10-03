@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andrewhwaller/queuetify-client.git"
+    "url": "git+https://github.com/andrewhwaller/queuetify-rails.git"
   },
-  "author": "",
+  "author": "Andrew Waller",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andrewhwaller/queuetify-client/issues"
+    "url": "https://github.com/andrewhwaller/queuetify-rails/issues"
   },
-  "homepage": "https://github.com/andrewhwaller/queuetify-client#readme"
+  "homepage": "https://github.com/andrewhwaller/queuetify-rails#readme"
 }
