@@ -1,3 +1,15 @@
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
 /* top menu */
 
 nav{
@@ -66,7 +78,6 @@ body, body.pushable > .pusher{
 /* footer menu */
 
 footer, .playback-controls{
-  margin-top: 1rem;
   height: 4rem;
   position: absolute;
 }
