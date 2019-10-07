@@ -1,8 +1,12 @@
 .ui.vertical.menu.sidebar-menu {
-  margin-top: 40px !important;
+  margin-top: 4rem !important;
   max-height: calc(100% - 40px) !important;
   height: calc(100% - 40px) !important;
-  z-index: -1;
+  z-index: 0;
+}
+
+nav{
+  height: 4rem;
 }
 
 @media (min-width:768px) {
@@ -19,24 +23,21 @@
 }
 
 .main-content{
-  margin-top: 40px;
+  margin-top: 4rem;
+  min-height: 100vh;
 }
 
 .left-menu-brand{
   color: white;
 }
 
-body{
-  background-color: #303030;
-}
-
-.grid-background{
+body{  
   background: #4776E6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.playback-controls{
+footer, .playback-controls{
+  height: 5rem;
   position: absolute;
-  z-index: 0;
 }
