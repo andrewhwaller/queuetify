@@ -25,11 +25,14 @@ nav{
   margin-right: 0.5rem;
   color: #26ff93;
 }
+.main-logo:hover {
+  color: #6b8db4;
+}
+
 
 .main-title {
   margin-right: 1rem;
 }
-
 
 /* top menu */
 
@@ -37,7 +40,6 @@ nav{
 
 .ui.vertical.menu.sidebar-menu {
   width: auto;
-  display: inline-block;
   margin-top: 4rem !important;
   max-height: calc(100vh - 8rem) !important;
   height: calc(100vh - 4rem) !important;
