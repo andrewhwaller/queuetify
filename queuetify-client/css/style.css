@@ -1,12 +1,22 @@
 /* top menu */
 
 nav{
+  position: absolute;
   height: 4rem !important;
 }
 
 .left-menu-brand{
   color: white;
 }
+
+.main-logo {
+  margin-right: 0.5rem;
+}
+
+.main-title {
+  margin-right: 1rem;
+}
+
 
 /* top menu */
 
