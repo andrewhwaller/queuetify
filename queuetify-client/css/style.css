@@ -1,8 +1,7 @@
 .ui.vertical.menu.sidebar-menu {
   margin-top: 4rem !important;
-  max-height: calc(100vh - 4rem) !important;
+  max-height: calc(100vh - 8rem) !important;
   height: calc(100vh - 4rem) !important;
-  z-index: -1;
   background-color: rgba(0,0,0,.25);
 }
 
@@ -44,4 +43,3 @@ footer, .playback-controls{
   height: 4rem;
   position: absolute;
 }
-
