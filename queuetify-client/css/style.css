@@ -1,8 +1,9 @@
 .ui.vertical.menu.sidebar-menu {
   margin-top: 4rem !important;
-  max-height: calc(100% - 40px) !important;
-  height: calc(100% - 40px) !important;
-  z-index: 0;
+  max-height: calc(100vh - 4rem) !important;
+  height: calc(100vh - 4rem) !important;
+  z-index: -1;
+  background-color: rgba(0,0,0,.5);
 }
 
 nav{
@@ -24,6 +25,7 @@ nav{
 
 .main-content{
   margin-top: 4rem;
+  margin-bottom: 4rem;
   min-height: 100vh;
 }
 
@@ -35,9 +37,11 @@ body{
   background: #4776E6;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to top, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to top, #8E54E9, #4776E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
 }
 
 footer, .playback-controls{
-  height: 5rem;
+  height: 4rem;
   position: absolute;
 }
+
