@@ -239,3 +239,27 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 200ms (Views: 170.6ms | MongoDB: 0.0ms)
 
 
+Started GET "/api/v1/tracks/top_100" for ::1 at 2019-10-07 22:11:35 -0500
+Processing by Api::V1::TracksController#top_100 as HTML
+Completed 500 Internal Server Error in 900ms (MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::UnknownAttribute (
+message:
+  Attempted to set a value for 'artists' which is not allowed on the model Track.
+summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Track#artists= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  
+app/models/track.rb:10:in `new'
+app/models/track.rb:10:in `new_from_spotify_track'
+app/controllers/api/v1/tracks_controller.rb:11:in `block in top_100'
+app/controllers/api/v1/tracks_controller.rb:10:in `map'
+app/controllers/api/v1/tracks_controller.rb:10:in `top_100'
+Started GET "/api/v1/tracks/top_100" for ::1 at 2019-10-07 22:14:23 -0500
+Processing by Api::V1::TracksController#top_100 as HTML
+Completed 200 OK in 7731ms (Views: 20.0ms | MongoDB: 0.0ms)
+
+
