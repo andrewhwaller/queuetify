@@ -12,4 +12,12 @@ class Api::V1::TracksController < ApplicationController
     end
     render json: @tracks
   end
+
+  def random
+    s_tracks = RSpotify::Playlist.browse_featured.first.tracks
+    @tracks = s_tracks.map do |s_track|
+      Track.new_from_spotify_track(s_track)
+    end
+    render json: @tracks
+  end
 end
