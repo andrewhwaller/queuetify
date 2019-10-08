@@ -40,4 +40,8 @@ class User
 
   acts_as_token_authenticatable
   field :authentication_token
+
+  def spotify
+    spotify_user = RSpotify::User.new(request.env['omniauth.auth'])
+  end
 end
