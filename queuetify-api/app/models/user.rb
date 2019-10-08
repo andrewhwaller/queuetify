@@ -38,10 +38,10 @@ class User
   field :last_name, type: String
   field :email, type: String
 
-  acts_as_token_authenticatable
-  field :authentication_token
-
-  def spotify
-    spotify_user = RSpotify::User.new(request.env['omniauth.auth'])
+  def self.from_omniauth(auth)
+    where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
+      user.email = auth.info.email
+      user.name = auth.info.name
+    end      
   end
 end
