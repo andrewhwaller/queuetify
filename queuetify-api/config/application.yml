@@ -9,3 +9,6 @@
 # production:
 #   stripe_api_key: sk_live_EeHnL644i6zo4Iyq4v1KdV9H
 #   stripe_publishable_key: pk_live_9lcthxpSIHbGwmdO941O1XVU
+
+spotify_client_id: 'c930b777494340ad9905ec461f4275c4'
+spotify_client_secret: '8afc48b9ac024063afc1369f8ed9200b'
