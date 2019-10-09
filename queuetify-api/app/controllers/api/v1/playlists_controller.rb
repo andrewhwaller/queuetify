@@ -9,7 +9,7 @@ class Api::V1::PlaylistsController < ApplicationController
   end
 
   def show
-    playlist = RSpotify::Playlist.find(user_id, playlist_id)
+    playlist = RSpotify::Playlist.find(current_user.uid, params[:id])
 
     render json: playlist, status: 200
   end
@@ -21,7 +21,7 @@ class Api::V1::PlaylistsController < ApplicationController
   end 
 
   def update
-    playlist = RSpotify::Playlist.find(user_id, playlist_id)
+    playlist = RSpotify::Playlist.find(current_user.uid, playlist_id)
     tracks = RSpotify::Track.search(search_term)
     playlist.add_tracks!(tracks)
     render json: playlist, status: 200
