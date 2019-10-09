@@ -5,8 +5,8 @@ $(document).ready(function() {
     $(target)
       .sidebar({
         dimPage: true,
-        transition: 'overlay',
-        mobileTransition: 'overlay'
+        transition: 'push',
+        mobileTransition: 'push'
       })
     .sidebar('toggle');
   });
