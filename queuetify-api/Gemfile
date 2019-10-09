@@ -26,7 +26,6 @@ gem 'mongoid', '~> 7.0'
 gem 'rspotify'
 gem 'figaro'
 gem 'devise'
-gem 'simple_token_authentication', '~> 1.0'
 gem 'omniauth-spotify'
 
 group :development, :test do

@@ -42,16 +42,16 @@ class User
   field :token, type: String
 
 
-  def self.from_omniauth(auth)
-    where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
-      user.token = auth.credentials.token
-      user.refresh_token = auth.credentials.refresh_token
-      user.email = auth.info.email
-      user.first_name = auth.info.first_name
-      user.last_name = auth.info.last_name
-      user.provider = auth.provider
-      user.uid = auth.uid
-      user.password = Devise.friendly_token[0,20]
-    end
-  end
+  # def self.from_omniauth(auth)
+  #   where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
+  #     user.token = auth.credentials.token
+  #     user.refresh_token = auth.credentials.refresh_token
+  #     user.email = auth.info.email
+  #     user.first_name = auth.info.first_name
+  #     user.last_name = auth.info.last_name
+  #     user.provider = auth.provider
+  #     user.uid = auth.uid
+  #     user.password = Devise.friendly_token[0,20]
+  #   end
+  # end
 end

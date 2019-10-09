@@ -1463,3 +1463,842 @@ MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[local
 MONGODB | Topology type 'Single' changed to type 'Single'.
 MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x72319860 type=uuid data=0xce8dd1029e9d4ea0...>}]}
 MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.010s
+Started GET "/users/auth/spotify" for ::1 at 2019-10-08 21:04:07 -0500
+Started GET "/users/auth/spotify/callback?code=AQDJc9ant4pKMSv_s3ITcGRV8QL-9AgN-xYsfTwgBPTQxGlx14KDWl9OlVTFojb0y6GdZ2j-Sq2Yuk-dCapM771UHPs0vrJC0MtSHZMqFP87jMEge6xLZPnEpQX_0sf1plaoCjqG9s54SOYduxUN5rdph-cL8wuLyj4kUgYl7uPg_lOw7CgvUQJL62CeYNlgZE7MYBVOfCx94k0yppuwUTEbvITSnsxVD62bzx70c9VufazvnIBKAY2cm-w129V7aPB-qbUL9AWNBopXDWKZqGdwgoCnjjwKCRyhgisINNUEYtUKV5Jr8iD4kTMlhiJB18R5qRFTZqNgN-tDajpFYJkv9V1WIIr68KUu2IRJFnSnFgYfGXVVpk698xH7ZIhYsnpZhfYYYwHqgtjJR8GEAGbrZVYQe4-TuI6wnKQa3YQZF9rI5rTynpAg6U8YvnsbcfPm-uz9QXHbV36OBS8T3HsYHsv27cJKBtbowV0JY-pY47PkRcCLj7BFXb7poosY7Q6J1ZBlXdJusS6c1SEZO63yTV5rR_y1Z64U0vzflqHV_LZ7TEIzZThehv6OdlHi9fXf7lniHfRVVK8QSTBOxBIlqV3Pk0A-VLyDMX9T&state=2e47721d1c81f05db3bc1f018e0596cd1225bcb621dee243" for ::1 at 2019-10-08 21:04:07 -0500
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+  Parameters: {"code"=>"AQDJc9ant4pKMSv_s3ITcGRV8QL-9AgN-xYsfTwgBPTQxGlx14KDWl9OlVTFojb0y6GdZ2j-Sq2Yuk-dCapM771UHPs0vrJC0MtSHZMqFP87jMEge6xLZPnEpQX_0sf1plaoCjqG9s54SOYduxUN5rdph-cL8wuLyj4kUgYl7uPg_lOw7CgvUQJL62CeYNlgZE7MYBVOfCx94k0yppuwUTEbvITSnsxVD62bzx70c9VufazvnIBKAY2cm-w129V7aPB-qbUL9AWNBopXDWKZqGdwgoCnjjwKCRyhgisINNUEYtUKV5Jr8iD4kTMlhiJB18R5qRFTZqNgN-tDajpFYJkv9V1WIIr68KUu2IRJFnSnFgYfGXVVpk698xH7ZIhYsnpZhfYYYwHqgtjJR8GEAGbrZVYQe4-TuI6wnKQa3YQZF9rI5rTynpAg6U8YvnsbcfPm-uz9QXHbV36OBS8T3HsYHsv27cJKBtbowV0JY-pY47PkRcCLj7BFXb7poosY7Q6J1ZBlXdJusS6c1SEZO63yTV5rR_y1Z64U0vzflqHV_LZ7TEIzZThehv6OdlHi9fXf7lniHfRVVK8QSTBOxBIlqV3Pk0A-VLyDMX9T", "state"=>"2e47721d1c81f05db3bc1f018e0596cd1225bcb621dee243"}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x78890700 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x79040520 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 02:04:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>38, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0220013>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x79040520 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 02:04:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>38, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0220013> new=#<Mongo::Server:Description:0x58324680 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 02:04:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>40, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.019601160000000003>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x79213140 type=uuid data=0xad9c79de05e44ae8...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9d297475b78416ec35b6f4')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x79213140 type=uuid data=0xad9c79de05e44ae8...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+Redirected to http://localhost:3000/
+Completed 302 Found in 75ms (MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-08 21:04:08 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (5.2ms)
+Completed 200 OK in 20ms (Views: 17.3ms | MongoDB: 0.0ms)
+
+
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x58324680 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 02:04:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>40, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.019601160000000003> new=#<Mongo::Server:Description:0x72701560 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 02:04:18 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>38, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.015680928000000004>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 21:04:27 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9d297475b78416ec35b6f4')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x79213140 type=uuid data=0xad9c79de05e44ae8...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+Completed 500 Internal Server Error in 26ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `playlists' for #<User:0x000000000739b578>):
+  
+app/controllers/api/v1/playlists_controller.rb:4:in `index'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 21:13:10 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9d297475b78416ec35b6f4')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x79213140 type=uuid data=0xad9c79de05e44ae8...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+Completed 200 OK in 607ms (Views: 10.6ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 21:14:59 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9d297475b78416ec35b6f4')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x79213140 type=uuid data=0xad9c79de05e44ae8...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.011s
+Completed 500 Internal Server Error in 112ms (MongoDB: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `spotify_user' for #<Api::V1::PlaylistsController:0x000000000a23a910>):
+  
+app/controllers/api/v1/playlists_controller.rb:4:in `index'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 21:15:21 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9d297475b78416ec35b6f4')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x79213140 type=uuid data=0xad9c79de05e44ae8...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+Completed 500 Internal Server Error in 17ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:42:in `new'
+app/controllers/api/v1/playlists_controller.rb:42:in `set_spotify_user'
+Started GET "/favicon.ico" for ::1 at 2019-10-08 21:15:21 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x65310440 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 02:17:28 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>38, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0048603788275093755> new=#<Mongo::Server:Description:0x65449300 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 02:17:34 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>42, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.006088423062007501>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x79213140 type=uuid data=0xad9c79de05e44ae8...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.001s
+Started GET "/users/auth/spotify" for ::1 at 2019-10-08 21:26:24 -0500
+Started GET "/users/auth/spotify/callback?code=AQA2p9wL7-ezayEk_g12HNisjCoIT9twDMmZm0xmPzJqy8edXDF8aF6gjYfdFanqWPdbg6uAn7RF3PmYJsLyVJOpHkwVNnFs0a76QSU6qeIHgjycp8fvCsrWcFUMdZ4KfX22TTO7bH3YIyG2-j05nViA5H7QpQ6pr0CJUCcYMgkXtyXpDdT9P4V5Ovi8kOgEnEB2W1WqSYdOS6DwsGCPqYgc5TShpCLoirgzYhM4edVZtNBSirkrbPm9H4Jss1Ydw5-edAIOJe-ycbe6MEGZ3iIGpbp5hu1hOhHwwQWB450Wq06_y_Yf_o5hAvIs8yM6msliX9whgNwoREwuRg0jcidGFQeSSjJOgFKKVI3T8sFOJVz-8EWPN9_3q4mGymHaxRP6146tl7tvmf5wLNQztr4PU1Ki4nNdg7jArGVLiPPduakEvSXAMlw2reRVAD2OK0RHU4fTHBxOTXmbsFd8ABt0S8-lxgwH0hToQNMDzaGwqf5Xi3oAI0ei_gB-A_Ohzeo2yd33H2Pa7tAtglM7X2P45SM4roPvuUTXmPkLWsTvL4BzIG1y999sI5vCa8GniskPJAEjQpWaBz8I1-wrI4IqP_bmZ9XuGYpzNmco&state=06a901aa4d49545e84f93c7ca9067b5491c320d60159fc62" for ::1 at 2019-10-08 21:26:24 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/auth/spotify/callback"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:31:31 -0500
+Started GET "/users/auth/spotify" for ::1 at 2019-10-08 21:34:15 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/auth/spotify"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/users/auth/spotify" for ::1 at 2019-10-08 21:39:12 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users/auth/spotify"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/auth/spotify" for ::1 at 2019-10-08 21:39:46 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/users/auth/spotify"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:40:18 -0500
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:41:21 -0500
+Started GET "/auth/spotify/callback?code=AQBTWT11q0_6fZL1v9CF6yT7zDSyvLaUg01Qui3o458pusL3ZUVcjXBRUvyGznKMGAgb3kLBUSv9AiRJpy2-Ki-7q8ftIkJ1x8QkiXEvqdxKDuqo-rY17ZVKnnD4W6KeoJoItHjijtXtDdmX-BdvsOcScP04GO2-_4dTntUI-fQX1Uga-z5avS5gicdwQpokNFPVeRljXCo-dmXKIAnRJGBqMtEx47HS9wV3hpj1-Sdwl8ROsQ-tFqxdsJaoXWWVcwOGiicdZvck3MCP61cgQc5KWXJIf-l1vFac5dnZPe9blSeFlyMNF4EfF7qgCGSkJd89gnxBy5JlC8pAcW26UOWFQQ3LZ_lSZmjK-dD-IRQv8mXvGmFinOEuFytYwNpuRoMtNrOPeviy_x1gdnJ3uC_ssdZ2jBZ1WpaWmW_sOWQEr2pGEPu-LpCNT9ayeC-pnAJLX-NY6dXGYaGd_-u631bNIrWJ-qWcTldl_jeD7UFV1e41fRykND986NwNeZuCfO_H-cO94KTIFOi3qorOfgcEJBktpTv_0bnCfXuF1BiK3s9fIjHqq6nUmW02UFJE1GgKzUh3wXbvqIUdI6apkA11njR9z5ui&state=182318dbe1635419a6df69de0eb2427975f104036eb04a9e" for ::1 at 2019-10-08 21:41:21 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/auth/spotify/callback"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:42:14 -0500
+Started GET "/auth/spotify/callback?code=AQCK4suyTfQuDrH68ue7rM-oC4RcZ2tw-tm6bS49WDzFX0NA0T-CnXrZSyU4uUfGQVf-ktihCKGDLRw5mcwfkZq7dgGErLoXVMSo3aTfU80jW6b10TbuCYIBGqDVMGYN9avytf4LXVgaYrSSchGeg-6oBq3q6rlTaDThmCPKRlZs5E9BuIttBdrewl3J3GWJXCzBeb8CgKXmSB7229m1u3IzTaIpP_8Kq3PvE5U-XB0ReEpTGK90ZVDzYR0qzdur2-rKfjxpk2GQm-lPBAya0kN_VO80k7hNYoH4A6kt34QRURREImEKYQBGqrbtGeJEU63zXeX2ngvs_H2O2G3WvbqNWCnviZEFOgII6J2_0Mi9OPj6wEu0KvOpZlu7RRM80keFS2RHkJd8GRgc4gaDt6vZLdpOm7pU889TmvlRxdLuAVGrAaGEwPewaC9maBeZH0mhkFpWezFyH-QySeqXXBdgmf69lkIOMDVwnwr5Fj2hK_LNB1AVoXdbB3So9-xldW6mCboEwnHXAgyRmgkmY7pH8Y27E-VxuhM60lIp-3lD64op1KyXUE__8-xv6Cv1G6OY4Tgt69g2zdByYOLLq9fhAfBigx8D&state=7da2dd4edca29c2132e891946be6170957ad9df839f0bc4a" for ::1 at 2019-10-08 21:42:14 -0500
+  
+ActionController::RoutingError (uninitialized constant UsersController):
+  
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:420:in `call_app!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:373:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/auth/spotify/callback?code=AQCK4suyTfQuDrH68ue7rM-oC4RcZ2tw-tm6bS49WDzFX0NA0T-CnXrZSyU4uUfGQVf-ktihCKGDLRw5mcwfkZq7dgGErLoXVMSo3aTfU80jW6b10TbuCYIBGqDVMGYN9avytf4LXVgaYrSSchGeg-6oBq3q6rlTaDThmCPKRlZs5E9BuIttBdrewl3J3GWJXCzBeb8CgKXmSB7229m1u3IzTaIpP_8Kq3PvE5U-XB0ReEpTGK90ZVDzYR0qzdur2-rKfjxpk2GQm-lPBAya0kN_VO80k7hNYoH4A6kt34QRURREImEKYQBGqrbtGeJEU63zXeX2ngvs_H2O2G3WvbqNWCnviZEFOgII6J2_0Mi9OPj6wEu0KvOpZlu7RRM80keFS2RHkJd8GRgc4gaDt6vZLdpOm7pU889TmvlRxdLuAVGrAaGEwPewaC9maBeZH0mhkFpWezFyH-QySeqXXBdgmf69lkIOMDVwnwr5Fj2hK_LNB1AVoXdbB3So9-xldW6mCboEwnHXAgyRmgkmY7pH8Y27E-VxuhM60lIp-3lD64op1KyXUE__8-xv6Cv1G6OY4Tgt69g2zdByYOLLq9fhAfBigx8D&state=7da2dd4edca29c2132e891946be6170957ad9df839f0bc4a" for ::1 at 2019-10-08 21:43:43 -0500
+  
+OAuth2::Error (invalid_grant: Invalid authorization code
+{"error":"invalid_grant","error_description":"Invalid authorization code"}):
+  
+oauth2 (1.4.2) lib/oauth2/client.rb:119:in `request'
+oauth2 (1.4.2) lib/oauth2/client.rb:146:in `get_token'
+oauth2 (1.4.2) lib/oauth2/strategy/auth_code.rb:30:in `get_token'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:93:in `build_access_token'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:77:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:48:09 -0500
+Started GET "/auth/spotify/callback?code=AQBU8adPgMLmsYIqtFF9OSifVVHneGiN2DdtDy5fopcS4PY3xXrLvVU0noTtzTM1Kw6y7IAdzLjJXTA8kmj8tX0V_eySYzDBq5EapmG0WNm6lgPoeiXAZjaGRoGYjOFEZUKpr4rH-AqYfhk8MRkdr0NPDd4zAf_yu02--MiB1poE4p4_Wo10hr1WPmmfBzMGlfd0g-f1XJ09tmmfscpqKl8JoGJDaZn4owIhSwcDeKhfy7f4wARoWyTxq9tcMTyDxVu9KOTWd4n_f2DqOr4oC7tXnYNlR2IzGXWaYxWkhNb2TZ0sREBSQCulLzKlDY-O_Nfv5kk511iEvwF3Rb0XCaNkCOLrmGfeVhPLBG5ZEEky_UtKpUM-TVvl9cmveWFNzxNyWiNEW4MRwCN8wcQLM1B4sSd8jwGGzyjrDgSPQVVW5TONi6g_na8R4N1X8dNGg94FRVplIX5pmPDQgrupZY1SVJLCvo9Wm5ULyzxyZwtUl_RZ-gfNoI5Truvbkf237gCsmFI3VXjMpDsvjfobi5wYCCwaPXDpeGj8LSIWr6AKMkNXflYkA8ICJkEJu5sTJgN-yXcpkI2ZxExn7u6Bdm9e8m7qdK_e&state=cf8d535103b95466f67f4d61826c5e3620f18d75bfda3f3f" for ::1 at 2019-10-08 21:48:09 -0500
+  
+SyntaxError (C:/Users/andrewhwaller/Documents/GitHub/queuetify-rails/queuetify-api/app/models/user.rb:57: syntax error, unexpected end, expecting end-of-input):
+  
+app/models/user.rb:57: syntax error, unexpected end, expecting end-of-input
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/users_controller.rb:1:in `<top (required)>'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:48:41 -0500
+Started GET "/auth/spotify/callback?code=AQC4cIgBL1ZK1Jo_Bqxoi-UK42NfzwYvDGBKflhmlHnzzhzB8ql4wMPf8owSxTF6QmMjs-K4G46ulEzAgVVEoLCRlD8UOfLc58MyugIzpgqIQ1CBl38aN2wA_q55w4CqKejiSe4jLaJq38hbh0j_2zbcCaAoWWaivr9PTVEW7qHOc0zZgVkxOCzXgZS35bn-44i_CfTqaXhd6xLihGXGfUDzReDmHHI3M8UraQ87sf5jfMqYwebwslNkW7d9NLThrlZtthS2ywGDzTZ0FGrKh3FajQUN1SvcI0rMbf5QQuyJYrtb24nJGlFzkOQbTB_lb0AaxxhXpxDuLQ_645OKg6LgeZoEhjZFCcgnK0xb_w1OoQOBkDgDHeRbCVGvxfot3dk3VMEu50o1WNGPlJ-axOxdd2euByDZX77cn4kfsOawR6Vtz2fdxEd7KZE-tWEsM-KU4rtcUSXZ01RGDyeV9Sc0ZLlgbsDutzgKb5hUUwX8YnQ0-ZbWwjIYrSsnLIaiBIJzJIERq8aHxSdz6a1oaX0l7o1v_THC2kb28Gc-rv2K8XR6k2JOASksIijEtWudT67L4KO7a4ekWqHnaIbGg-O4tBj02mCw&state=508b02ee5435ed392de3d377b54c1d5b40c0d0e629ec5c3e" for ::1 at 2019-10-08 21:48:41 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQC4cIgBL1ZK1Jo_Bqxoi-UK42NfzwYvDGBKflhmlHnzzhzB8ql4wMPf8owSxTF6QmMjs-K4G46ulEzAgVVEoLCRlD8UOfLc58MyugIzpgqIQ1CBl38aN2wA_q55w4CqKejiSe4jLaJq38hbh0j_2zbcCaAoWWaivr9PTVEW7qHOc0zZgVkxOCzXgZS35bn-44i_CfTqaXhd6xLihGXGfUDzReDmHHI3M8UraQ87sf5jfMqYwebwslNkW7d9NLThrlZtthS2ywGDzTZ0FGrKh3FajQUN1SvcI0rMbf5QQuyJYrtb24nJGlFzkOQbTB_lb0AaxxhXpxDuLQ_645OKg6LgeZoEhjZFCcgnK0xb_w1OoQOBkDgDHeRbCVGvxfot3dk3VMEu50o1WNGPlJ-axOxdd2euByDZX77cn4kfsOawR6Vtz2fdxEd7KZE-tWEsM-KU4rtcUSXZ01RGDyeV9Sc0ZLlgbsDutzgKb5hUUwX8YnQ0-ZbWwjIYrSsnLIaiBIJzJIERq8aHxSdz6a1oaX0l7o1v_THC2kb28Gc-rv2K8XR6k2JOASksIijEtWudT67L4KO7a4ekWqHnaIbGg-O4tBj02mCw", "state"=>"508b02ee5435ed392de3d377b54c1d5b40c0d0e629ec5c3e"}
+Completed 500 Internal Server Error in 52ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `authenticate_user!' for #<Api::V1::UsersController:0x00000000090af100>
+Did you mean?  authenticate_user_from_token!):
+  
+simple_token_authentication (1.17.0) lib/simple_token_authentication/devise_fallback_handler.rb:15:in `authenticate_entity!'
+simple_token_authentication (1.17.0) lib/simple_token_authentication/devise_fallback_handler.rb:7:in `fallback!'
+simple_token_authentication (1.17.0) lib/simple_token_authentication/token_authentication_handler.rb:48:in `fallback!'
+simple_token_authentication (1.17.0) lib/simple_token_authentication/token_authentication_handler.rb:144:in `block (3 levels) in define_token_authentication_helpers_for'
+simple_token_authentication (1.17.0) lib/simple_token_authentication/token_authentication_handler.rb:145:in `block (2 levels) in define_token_authentication_helpers_for'
+activesupport (5.2.3) lib/active_support/callbacks.rb:426:in `block in make_lambda'
+activesupport (5.2.3) lib/active_support/callbacks.rb:198:in `block (2 levels) in halting'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.2.3) lib/active_support/callbacks.rb:199:in `block in halting'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `block in invoke_before'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `each'
+activesupport (5.2.3) lib/active_support/callbacks.rb:513:in `invoke_before'
+activesupport (5.2.3) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.2.3) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.3) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.3) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.3) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.3) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+mongoid (7.0.5) lib/mongoid/railties/controller_runtime.rb:19:in `process_action'
+actionpack (5.2.3) lib/abstract_controller/base.rb:134:in `process'
+actionpack (5.2.3) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.3) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:420:in `call_app!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:373:in `callback_phase'
+omniauth-oauth2 (1.3.1) lib/omniauth/strategies/oauth2.rb:79:in `callback_phase'
+omniauth (1.9.0) lib/omniauth/strategy.rb:238:in `callback_call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:189:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:49:35 -0500
+Started GET "/auth/spotify/callback?code=AQC2tvDGskLVSb3ms1VK3LIhoy9F4YdtRrf5xo9RpvF3G3I_S_50GYdkrmBW8udDIC-rkAn_w-ynF7vSa3biANICNV56LVaYQuyQAi_enXEEBHboyYn0uQTh1uRceWGBqSpx91spAlseGMm-BFobcbxbweeHYBHwxc1_m92bJ7TzZmMBKSO43INA7LnmVUsvMtjElDtVsMxMsDaCbWaZkVf-TNJWV8druedM5yggPBvCGNv26xUKjLz_tZoO41jwFznmb_fUVmcQfoU05u-wtBtgwoEu5pvbDHzXz57B-bTU7orlc8jhM5mMtiK08yKRiO6O7cds2yfXcF5amqf2gLvieS9jPSjQJAPxuzuccnCtOG3iHqiIB6zsEAT-ROQJQUIin39Hy-e-uSR1aO7dVwsjqVIGPLjsFTWZuZcTKdA6LoUXkhsUV-Zx5q6TMSyjVO-QhCuwYn7QMXAgWCcphR5eZm64lZ5H9MJipmnxanfQFwkFsAFDkudA6cRyjHZ75SXxCx7276JeIiDzr4C7g9Nquv4Mejj8GF9KK07NtQ_0S1cWOWZTDBsogZ2jbmk1_USrVGQt0kHb7g_p_WK7TaX2OMfM6fxZ&state=53d7de308fef92c18608d4d57661cd537e97f17386bfe4ef" for ::1 at 2019-10-08 21:49:35 -0500
+  
+ActionController::RoutingError (undefined method `acts_as_token_authentication_handler_for' for ApplicationController:Class):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<top (required)>'
+app/controllers/api/v1/users_controller.rb:1:in `<top (required)>'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:50:13 -0500
+Started GET "/auth/spotify/callback?code=AQD6s1xCDL5DQ2AwZWQt9i-UKY1XeeydmajJ-vf0xK-FERH_MaoaqQ_7xF2MmERXfUwc3c50ARIeeln9N2u_dFSKEwkVneeNUNOtcnbQR5AXAoLsIvkBdTw8y9X80d2vvCfub4z2npcu7ExW57aUkOMxvMzP5ZIXdnuPLHFT3oFpvPlE2MDWxwIjAblh5_J09p771LUZWXPJpuQcI-usNpjwyeKG2WYXV1f7K4t5-WtCvZSpb9GUokw51kTXVuKpoEb1qJ5qPj5l2EckpZqya5PAi4LYPXmHRShqQBWbRylSRL0Wr7p0oAG58Fg-LtofZgvOmM1PdYrlAm-cAvgBCgZGy9_u-EtQkgxfxjA4jQziX3ZZH7FYWSeKPIgVuFkcC62pIFRyDh4U2F7j167V9yZW0o0wtRkRq1b_yjg1NKM_elZGzgQFJ1rruYiN0TSX2FOU-RIR5vuzIeHvmgxWfBU3SYywX287YyM_ltUqysmdeT2lV0phMH4u0hSxCBR_-FkV3i77KZbP-_jLAJhOvJwGfKEJHiThJlhtovoK6N39xTI-nSf_bRfz0QU5ovUAqLFtQoURH_X2bPlEB95iEOXcOjrTgp8F&state=1755afa9a9033700283295713026809991552a5d95a44399" for ::1 at 2019-10-08 21:50:13 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQD6s1xCDL5DQ2AwZWQt9i-UKY1XeeydmajJ-vf0xK-FERH_MaoaqQ_7xF2MmERXfUwc3c50ARIeeln9N2u_dFSKEwkVneeNUNOtcnbQR5AXAoLsIvkBdTw8y9X80d2vvCfub4z2npcu7ExW57aUkOMxvMzP5ZIXdnuPLHFT3oFpvPlE2MDWxwIjAblh5_J09p771LUZWXPJpuQcI-usNpjwyeKG2WYXV1f7K4t5-WtCvZSpb9GUokw51kTXVuKpoEb1qJ5qPj5l2EckpZqya5PAi4LYPXmHRShqQBWbRylSRL0Wr7p0oAG58Fg-LtofZgvOmM1PdYrlAm-cAvgBCgZGy9_u-EtQkgxfxjA4jQziX3ZZH7FYWSeKPIgVuFkcC62pIFRyDh4U2F7j167V9yZW0o0wtRkRq1b_yjg1NKM_elZGzgQFJ1rruYiN0TSX2FOU-RIR5vuzIeHvmgxWfBU3SYywX287YyM_ltUqysmdeT2lV0phMH4u0hSxCBR_-FkV3i77KZbP-_jLAJhOvJwGfKEJHiThJlhtovoK6N39xTI-nSf_bRfz0QU5ovUAqLFtQoURH_X2bPlEB95iEOXcOjrTgp8F", "state"=>"1755afa9a9033700283295713026809991552a5d95a44399"}
+Completed 204 No Content in 9ms (MongoDB: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:52:56 -0500
+Started GET "/auth/spotify/callback?code=AQDRm0v5hN4TwbtidtTaQlgZFTN5--RJnHa7BjUNBXbzcqwxxFzCblFRWqVasi0DmBjOHQGmKsOa7-b7jbcrbVklyuG9vVFYB1mxwkGi4ZSeEQVe2cApqcjfWgf3i787rXJieG74TKcoQJ1TNk96yO4kgZ6ROsSOn2GFBBcTsbfe4oNVF4RfgAC8FlHcwF5yKOgh-4jefzwkhixl_DtUtYrzufzH4paoooHxYV6t8QF1tonGE0t2y5TJPtvG2tbxa9uLJ279TIAEwNg4VfbAm1iecdE8USm071ijiTJeHT36RGb_apFlLxUR_gYyE6G7pTbWPAIGOhnCjNT7dLdMV7fpsUMapKAXrz9QWj7YcHf7PM0N6xuwsCWTTUMer__VRMIpkpBqI_Dp3w0cXxs6IeszrIN296nWseWt14QOgPc5KS9DDMY-Aoql8gb07EHc5dNXFupQpu1yDqbSY_4xIuujQkFUBFtpvvY7cEZLaWRYOJHMp5e4OJ8NHreYyfnORheG82T4TzR5GBzFPYTBGSs5XVS95rFbQEAwebtp8fPapv9WRp9JKgAeBaIm9elndvEL2j205CBH81NicspPLHQHg6QxQPN3&state=dc559f73bf4ae889bd527e6562f5e5164d5a594922c0f58c" for ::1 at 2019-10-08 21:52:57 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQDRm0v5hN4TwbtidtTaQlgZFTN5--RJnHa7BjUNBXbzcqwxxFzCblFRWqVasi0DmBjOHQGmKsOa7-b7jbcrbVklyuG9vVFYB1mxwkGi4ZSeEQVe2cApqcjfWgf3i787rXJieG74TKcoQJ1TNk96yO4kgZ6ROsSOn2GFBBcTsbfe4oNVF4RfgAC8FlHcwF5yKOgh-4jefzwkhixl_DtUtYrzufzH4paoooHxYV6t8QF1tonGE0t2y5TJPtvG2tbxa9uLJ279TIAEwNg4VfbAm1iecdE8USm071ijiTJeHT36RGb_apFlLxUR_gYyE6G7pTbWPAIGOhnCjNT7dLdMV7fpsUMapKAXrz9QWj7YcHf7PM0N6xuwsCWTTUMer__VRMIpkpBqI_Dp3w0cXxs6IeszrIN296nWseWt14QOgPc5KS9DDMY-Aoql8gb07EHc5dNXFupQpu1yDqbSY_4xIuujQkFUBFtpvvY7cEZLaWRYOJHMp5e4OJ8NHreYyfnORheG82T4TzR5GBzFPYTBGSs5XVS95rFbQEAwebtp8fPapv9WRp9JKgAeBaIm9elndvEL2j205CBH81NicspPLHQHg6QxQPN3", "state"=>"dc559f73bf4ae889bd527e6562f5e5164d5a594922c0f58c"}
+Completed 204 No Content in 15ms (MongoDB: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:54:32 -0500
+Started GET "/auth/spotify/callback?code=AQB1wMEf4MOHFrLoLEr7Ijg762q32FpL8d__7u5BIOn0-q1G0dy0Vj7nKinjcho0JnXovKgT3TMNPI2P2ODdPCcEcnJkjyoCjzxBpkNRA1KV-Nl34qeQaGuzMfgo7gfTeQpecPOvMw6Ik7wKU77o22bunfAseBgu9-PZa4hYjqq3XMES7fnc1TRq8ZpBsajotIRL66Xpl1sd1gW0jqMrOtDGwiUBwGj9FgswZhradUV76woQuKCw1EdjB631MvArw6Ocu6mlTIWtHZ2CeLn--tBkgTHNh_ukItCxhetlm8u7podCB-dg8g_i5-GN-LBULUo9OCl1EqEapthmwRP_hxLYg7n85QXOZyRvjbIpAkI4_MwrpoC8LsusjuanKZY2Jr9xrQf6SZ6u0yV-ALl6yufoTQ3V0CQ36FF8OQ2jkONVaXcRp2_hKlEE_ABomUm6LAJQ8fx9iwFxPo5IirHuYXF23IlwQy4QNvArM_o2_yqKQks82QcS5KdwMzGpzMXigRZEia0N6ZnG1m0ppLcPY6Z5HqHC-9BM6_qqprQ0XXPwaKm8fZm6zgRhNGCsiTzxpqwiU_XZOuAfgktqm2bTjEZhTXTsDbk5&state=ef6a245583dd488a020befeb067448a21f08e58122ecf21f" for ::1 at 2019-10-08 21:54:33 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQB1wMEf4MOHFrLoLEr7Ijg762q32FpL8d__7u5BIOn0-q1G0dy0Vj7nKinjcho0JnXovKgT3TMNPI2P2ODdPCcEcnJkjyoCjzxBpkNRA1KV-Nl34qeQaGuzMfgo7gfTeQpecPOvMw6Ik7wKU77o22bunfAseBgu9-PZa4hYjqq3XMES7fnc1TRq8ZpBsajotIRL66Xpl1sd1gW0jqMrOtDGwiUBwGj9FgswZhradUV76woQuKCw1EdjB631MvArw6Ocu6mlTIWtHZ2CeLn--tBkgTHNh_ukItCxhetlm8u7podCB-dg8g_i5-GN-LBULUo9OCl1EqEapthmwRP_hxLYg7n85QXOZyRvjbIpAkI4_MwrpoC8LsusjuanKZY2Jr9xrQf6SZ6u0yV-ALl6yufoTQ3V0CQ36FF8OQ2jkONVaXcRp2_hKlEE_ABomUm6LAJQ8fx9iwFxPo5IirHuYXF23IlwQy4QNvArM_o2_yqKQks82QcS5KdwMzGpzMXigRZEia0N6ZnG1m0ppLcPY6Z5HqHC-9BM6_qqprQ0XXPwaKm8fZm6zgRhNGCsiTzxpqwiU_XZOuAfgktqm2bTjEZhTXTsDbk5", "state"=>"ef6a245583dd488a020befeb067448a21f08e58122ecf21f"}
+Completed 204 No Content in 7ms (MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 21:55:11 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 2ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `playlists' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:5:in `index'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:56:11 -0500
+Started GET "/auth/spotify/callback?code=AQC_BFXsWHYmxY5icKmWlAVLh9dWXBzSrazzA9s-g8G6EO_0OED4AZK8SV3ybtNuKmglGpCNFneJuqPSVrUYkbKxizY6jzFsTMFdskj87eMHcq1dwb-U-FeakEz618ILkkSzsq2ML0GxyStlItK2DGYeIFChrZuNuK6tII_u1lvjHkeYI11-eO-QN0sDqPBOXACYCttAAzZRCnRRUf-jbRFxjzKkp7VP4e3kvO1xBXSDXAJDjiimMhotlB7Bg7JhZNLLat0hD5DDI-1k1Rt4oCd0JYZn5d4TgcwjKkAFBM_kj6aYqs-ylE7YxkgKSXQ6nelut5n48btqHulS4GT5SYmNYHaWlDaWunyfztWh8i5-WA0gJier24ugdxDO8G5AGYixUweJtX97tAz2hZbGqu2QSNSFOCs_5a3cmorGU8-eaNpLoGUEZIY6EbWZrnPF8g1MBUoQ-VxKNdhu-kTQwI5Fcn32kOfVGlw3u_6Yh5Tno9dl_Ir5dvakfF71KzAT44r2u7QBKltUVk2VhCdnUQzhZLkCasRluZdFiMWwp01meXMlNYQoDDRxcLhii5-A0juwghXwPoW4PrKIMmUKYYYTXY-3Eoqm&state=bcd23660a42c133d5f9fcf4e64b606fa07e6c94ffb105324" for ::1 at 2019-10-08 21:56:11 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQC_BFXsWHYmxY5icKmWlAVLh9dWXBzSrazzA9s-g8G6EO_0OED4AZK8SV3ybtNuKmglGpCNFneJuqPSVrUYkbKxizY6jzFsTMFdskj87eMHcq1dwb-U-FeakEz618ILkkSzsq2ML0GxyStlItK2DGYeIFChrZuNuK6tII_u1lvjHkeYI11-eO-QN0sDqPBOXACYCttAAzZRCnRRUf-jbRFxjzKkp7VP4e3kvO1xBXSDXAJDjiimMhotlB7Bg7JhZNLLat0hD5DDI-1k1Rt4oCd0JYZn5d4TgcwjKkAFBM_kj6aYqs-ylE7YxkgKSXQ6nelut5n48btqHulS4GT5SYmNYHaWlDaWunyfztWh8i5-WA0gJier24ugdxDO8G5AGYixUweJtX97tAz2hZbGqu2QSNSFOCs_5a3cmorGU8-eaNpLoGUEZIY6EbWZrnPF8g1MBUoQ-VxKNdhu-kTQwI5Fcn32kOfVGlw3u_6Yh5Tno9dl_Ir5dvakfF71KzAT44r2u7QBKltUVk2VhCdnUQzhZLkCasRluZdFiMWwp01meXMlNYQoDDRxcLhii5-A0juwghXwPoW4PrKIMmUKYYYTXY-3Eoqm", "state"=>"bcd23660a42c133d5f9fcf4e64b606fa07e6c94ffb105324"}
+Completed 200 OK in 339ms (Views: 26.2ms | MongoDB: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-10-08 21:59:48 -0500
+Started GET "/auth/spotify/callback?code=AQAg2wUeXE8IljntEYx6-LgVZ9CQ28y41gWULxm05ld3pevvVtWvg_IchJkBH1oWATZaYr26N0H9NsiDot2ynr8YYvEEdoOu-09SEqdMBZxbHIbcccDK3fHT5nLcZijwPXKfamM7RfvkYZSaqQsX4VUUjxCt-_9vG4UIusxC2cW4Im7PdaD0J7YT-ez8CGsLnvTtlJaRf7WQp3qzF6T8jPjWrs4vZbleBPWT3zMgkEUg5uN69RdH88OWMF1i_zREaODg8fGRa78tk_hLimdL7MoRiNTwhbpbUSlRwYOqxx_MJI-nAGOAebrzqpc6iKPM_0cFgqkPMq6KyazdkVRPdbQ7vD4-tJ4prVjHEQF-DcqMz92RttFmu3rLxfsiL9Sc6Uq5HuuL8A4PtELntJVuftowJGXAf-c3A6R7gD17ILp1WbxJGfVXJapUYwBzxGWva1umWmP-bE5-d6aCRNsUPc99tvSXsNU2tmxzk4Lb5S991dWCZ4h_x_WpPB6pv1gWWX5PQJDG9iNbxY5Ql_IkJ7aamjcangmk0JkS6e6GT6Z1-S-IE1PKn8FvSg7nHSHN4QbGOvXUyVYXlqajH-g9hgCVOUpbZKop&state=8820eba3c74533cf6a2bf0e86f874b240499edac3cf85d9d" for ::1 at 2019-10-08 21:59:48 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQAg2wUeXE8IljntEYx6-LgVZ9CQ28y41gWULxm05ld3pevvVtWvg_IchJkBH1oWATZaYr26N0H9NsiDot2ynr8YYvEEdoOu-09SEqdMBZxbHIbcccDK3fHT5nLcZijwPXKfamM7RfvkYZSaqQsX4VUUjxCt-_9vG4UIusxC2cW4Im7PdaD0J7YT-ez8CGsLnvTtlJaRf7WQp3qzF6T8jPjWrs4vZbleBPWT3zMgkEUg5uN69RdH88OWMF1i_zREaODg8fGRa78tk_hLimdL7MoRiNTwhbpbUSlRwYOqxx_MJI-nAGOAebrzqpc6iKPM_0cFgqkPMq6KyazdkVRPdbQ7vD4-tJ4prVjHEQF-DcqMz92RttFmu3rLxfsiL9Sc6Uq5HuuL8A4PtELntJVuftowJGXAf-c3A6R7gD17ILp1WbxJGfVXJapUYwBzxGWva1umWmP-bE5-d6aCRNsUPc99tvSXsNU2tmxzk4Lb5S991dWCZ4h_x_WpPB6pv1gWWX5PQJDG9iNbxY5Ql_IkJ7aamjcangmk0JkS6e6GT6Z1-S-IE1PKn8FvSg7nHSHN4QbGOvXUyVYXlqajH-g9hgCVOUpbZKop", "state"=>"8820eba3c74533cf6a2bf0e86f874b240499edac3cf85d9d"}
+Completed 500 Internal Server Error in 324ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `all' for #<Array:0x0000000009631628>
+Did you mean?  all?):
+  
+app/controllers/api/v1/users_controller.rb:43:in `spotify'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:00:07 -0500
+Started GET "/auth/spotify/callback?code=AQBYomnulGmwTZsMJ4jzpoy2wSwlCCxsjobbl_MW5zGXgsBmtc3gJ0ctwMfhj_p1GWq0H77zlFebVMCg5_Ik3qbuT-hm0dGlzmS74NpFkzy4F09zmQ2tqx63xnXvY69F8WMYVh2XlJr7XupF-3zarWge2-vWfMzRJSdNwIcEH5EFVbfudnCB0nDqIxjxfnUvSWhIRrFlbO9S6fJsUUtN1wz2sczH98iqHoYKHgu5YNkgQEoRHlTkvaXXMMNvZSBX2HUtWK3ah77QpIALgT-ETJUQs1jiDRs2owopOa-YbqBIW-b2NLBc7mC7Yer89fH8k3XGw4T6dqRKIC5IfxiRrF0kBscEUx-E08DtqlB1eZufwNbzuUGl_fQMhXXYKGX8sAsVN_7U0Vpvt8VtWGfT0-eoYUPwqToeFjc2S8SM0gmLg5Cl6l7P3v2WMy27dlpqh8L2q9PBCpqtxzMTmaX-dLIFj1MCr6B5PQXsSmR2D2xTtwDP2-OkrlLi6uMNNxsiLY-9w-X34ZSwMXGoGdAcmD3bxj-yMvi8ksQVBaNhYEBQImsam30faM7lV90Hj5vE9myw37QTsR90e0lEhl6Lr9JxM2o_O0Lv&state=7f5271783f1a0601248e3040a09490c2da363c9ad4c8d619" for ::1 at 2019-10-08 22:00:08 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQBYomnulGmwTZsMJ4jzpoy2wSwlCCxsjobbl_MW5zGXgsBmtc3gJ0ctwMfhj_p1GWq0H77zlFebVMCg5_Ik3qbuT-hm0dGlzmS74NpFkzy4F09zmQ2tqx63xnXvY69F8WMYVh2XlJr7XupF-3zarWge2-vWfMzRJSdNwIcEH5EFVbfudnCB0nDqIxjxfnUvSWhIRrFlbO9S6fJsUUtN1wz2sczH98iqHoYKHgu5YNkgQEoRHlTkvaXXMMNvZSBX2HUtWK3ah77QpIALgT-ETJUQs1jiDRs2owopOa-YbqBIW-b2NLBc7mC7Yer89fH8k3XGw4T6dqRKIC5IfxiRrF0kBscEUx-E08DtqlB1eZufwNbzuUGl_fQMhXXYKGX8sAsVN_7U0Vpvt8VtWGfT0-eoYUPwqToeFjc2S8SM0gmLg5Cl6l7P3v2WMy27dlpqh8L2q9PBCpqtxzMTmaX-dLIFj1MCr6B5PQXsSmR2D2xTtwDP2-OkrlLi6uMNNxsiLY-9w-X34ZSwMXGoGdAcmD3bxj-yMvi8ksQVBaNhYEBQImsam30faM7lV90Hj5vE9myw37QTsR90e0lEhl6Lr9JxM2o_O0Lv", "state"=>"7f5271783f1a0601248e3040a09490c2da363c9ad4c8d619"}
+Completed 200 OK in 277ms (Views: 10.1ms | MongoDB: 0.0ms)
+
+
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x75924560 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x75982860 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:03:37 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>44, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0210012>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x75982860 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:03:37 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>44, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0210012> new=#<Mongo::Server:Description:0x76183960 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:03:37 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>46, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.01900108>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{}, "sort"=>{"_id"=>-1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x76000080 type=uuid data=0xce9e18a897844e66...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.011s
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x76183960 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:03:37 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>46, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.01900108> new=#<Mongo::Server:Description:0x78776840 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:03:47 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>44, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.015400884000000002>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x78776840 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:03:47 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>44, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.015400884000000002> new=#<Mongo::Server:Description:0x43152040 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:03:48 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>48, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.014320827200000004>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x76000080 type=uuid data=0xce9e18a897844e66...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.010s
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:09:16 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 2ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `playlists' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:5:in `index'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:09:37 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 107906ms (MongoDB: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `index'
+app/controllers/api/v1/playlists_controller.rb:6:in `index'
+Started GET "/" for ::1 at 2019-10-08 22:13:29 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 25ms (Views: 22.5ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:13:37 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 8ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:43:in `new'
+app/controllers/api/v1/playlists_controller.rb:43:in `set_spotify_user'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:14:01 -0500
+Started GET "/auth/spotify/callback?code=AQB34wCxS5l9EvBBRt5D7Jk6zIpIROTxdW19aOp7JCSwM6bPFdEeBOGy0UQmyUZ9QKstpPvDQHo0WhC4X9-K6NYKbQWHcFL8oD7nQVexWhxwaXXPDkwjrxnH4oFDb4QI2E8dNxU77UgSbveIuZAKtz7rRMSTwWmLtPwgOcK7CqN99RNeavuCTAaImGkWSETBS8WaHNwXp4yGB5yy-xjrrqP1MgvHdHd103ZIza_1qA8Ozxlg576Gew2P6I3rxBjBgh0TVhZ--mNs7a3BllmLx92vctglf37CpGZwV7sY9db3L_GO-lXHDyGuBtQnSL7caNDO1TQ6qY_frVqSwVdVC57RuU3IThnzBqaq5x6aMCzfl0k_SnF17Ibxje6pkrAIDVgG-rDL3xUZPcGcUuohlMCLoHlov0pPSwGNediyi8tvq0RkK2D2ur_xDrBmx9UYEh6FwJUyVY0LaVicFzIWDl3xxehgLxyWEGW1tkho6Kc-C5eVfD8kjcSZXItMJspi62nlCJsX9aNoA5twKh1YX8TqeD84P5rhkziTL9AHvxG6rcPwaH-6Ex_rr8_QA4zF-ANtB8mO1qAqKZu3Ty7JWS3vl5vOYUeL&state=d859cf5bfedf008a04cd7e1c8c51ae05eda939c9c77ac864" for ::1 at 2019-10-08 22:14:01 -0500
+Started GET "/auth/spotify/" for ::1 at 2019-10-08 22:14:01 -0500
+Started GET "/auth/spotify/callback?code=AQCGabVDk9UFwpVZY7eVVMnVabw-YDLFbmLePsJAZyPBSzulDoIZkfNlY2jPu15e4I4yZLrWLfHyoDIU3tJMZK3YXloODtbNjdxz0tNisQ-1nDuvJxHeJW6uxS_IJYXjRNW-LPK9cxjQYIdvDjzVO7vW5DlIeLt5TSWBtumE6tEEfehgYeiL_75lRHmWimp25yRs0xh2-ZUymb1GdU-XRI8sJeCf1cbAjcYZCq98CCazn8P27vGuME6NERz6FGXfo6C3fjy8epouzff5EPKJGjyZYIFbQQ_ineLMMYJvxx8WjoLSa_w2pKv6vDeU35aPrKvzZA4AAqPjHOrGeJAk5bny3JjHBxfNh37A6zugip21esei5ZkW_YES7vn5uVRCqvd6-9attyZr5r81rK3RnBXW5ghkdMAN-8KJ3s_zuNmVfZRGCRDKY2NFP0aC77U88Da4GhQBq6clzZ7J75qXfcQGhpqsIEQzvpWPtxovYTgRLte610mSQ64nDeE-RKd-LGmERXKwrVIj39kGbUS6Zaai3ECTiaPFnFEZ2Ix-BJNu6Li5Rtm6RKhUwmTCsK-OdZc1tLuUKO3wtFKxMptPDJS_tsYiHf34&state=446e77b339a6b5b5d50c1e4da406e25f1ddda61598984b21" for ::1 at 2019-10-08 22:14:01 -0500
+Processing by Api::V1::UsersController#index as HTML
+  Parameters: {"code"=>"AQB34wCxS5l9EvBBRt5D7Jk6zIpIROTxdW19aOp7JCSwM6bPFdEeBOGy0UQmyUZ9QKstpPvDQHo0WhC4X9-K6NYKbQWHcFL8oD7nQVexWhxwaXXPDkwjrxnH4oFDb4QI2E8dNxU77UgSbveIuZAKtz7rRMSTwWmLtPwgOcK7CqN99RNeavuCTAaImGkWSETBS8WaHNwXp4yGB5yy-xjrrqP1MgvHdHd103ZIza_1qA8Ozxlg576Gew2P6I3rxBjBgh0TVhZ--mNs7a3BllmLx92vctglf37CpGZwV7sY9db3L_GO-lXHDyGuBtQnSL7caNDO1TQ6qY_frVqSwVdVC57RuU3IThnzBqaq5x6aMCzfl0k_SnF17Ibxje6pkrAIDVgG-rDL3xUZPcGcUuohlMCLoHlov0pPSwGNediyi8tvq0RkK2D2ur_xDrBmx9UYEh6FwJUyVY0LaVicFzIWDl3xxehgLxyWEGW1tkho6Kc-C5eVfD8kjcSZXItMJspi62nlCJsX9aNoA5twKh1YX8TqeD84P5rhkziTL9AHvxG6rcPwaH-6Ex_rr8_QA4zF-ANtB8mO1qAqKZu3Ty7JWS3vl5vOYUeL", "state"=>"d859cf5bfedf008a04cd7e1c8c51ae05eda939c9c77ac864"}
+Processing by Api::V1::UsersController#index as HTML
+  Parameters: {"code"=>"AQCGabVDk9UFwpVZY7eVVMnVabw-YDLFbmLePsJAZyPBSzulDoIZkfNlY2jPu15e4I4yZLrWLfHyoDIU3tJMZK3YXloODtbNjdxz0tNisQ-1nDuvJxHeJW6uxS_IJYXjRNW-LPK9cxjQYIdvDjzVO7vW5DlIeLt5TSWBtumE6tEEfehgYeiL_75lRHmWimp25yRs0xh2-ZUymb1GdU-XRI8sJeCf1cbAjcYZCq98CCazn8P27vGuME6NERz6FGXfo6C3fjy8epouzff5EPKJGjyZYIFbQQ_ineLMMYJvxx8WjoLSa_w2pKv6vDeU35aPrKvzZA4AAqPjHOrGeJAk5bny3JjHBxfNh37A6zugip21esei5ZkW_YES7vn5uVRCqvd6-9attyZr5r81rK3RnBXW5ghkdMAN-8KJ3s_zuNmVfZRGCRDKY2NFP0aC77U88Da4GhQBq6clzZ7J75qXfcQGhpqsIEQzvpWPtxovYTgRLte610mSQ64nDeE-RKd-LGmERXKwrVIj39kGbUS6Zaai3ECTiaPFnFEZ2Ix-BJNu6Li5Rtm6RKhUwmTCsK-OdZc1tLuUKO3wtFKxMptPDJS_tsYiHf34", "state"=>"446e77b339a6b5b5d50c1e4da406e25f1ddda61598984b21"}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x76443280 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x76591600 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:14:02 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>50, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0210012>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x76591600 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:14:02 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>50, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0210012> new=#<Mongo::Server:Description:0x76913240 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:14:02 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>54, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.01880108>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x76852100 type=uuid data=0xc54aebdd277443b4...>}}
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x76913240 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:14:02 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>54, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.01880108> new=#<Mongo::Server:Description:0x76908400 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:14:02 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>53, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.017441004000000003>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{}, "lsid"=>{"id"=><BSON::Binary:0x76621240 type=uuid data=0xbd37128e5afa4f60...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 122ms (Views: 45.0ms | MongoDB: 0.0ms)
+
+
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.001s
+Completed 200 OK in 125ms (Views: 47.4ms | MongoDB: 0.0ms)
+
+
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x76908400 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:14:02 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>53, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.017441004000000003> new=#<Mongo::Server:Description:0x78237420 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:14:12 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>50, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.016152923200000002>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+Started GET "/api/v1/users/auth/spotify" for ::1 at 2019-10-08 22:14:59 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/users/auth/spotify"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:15:05 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:43:in `new'
+app/controllers/api/v1/playlists_controller.rb:43:in `set_spotify_user'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:15:45 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:42:in `new'
+app/controllers/api/v1/playlists_controller.rb:42:in `set_spotify_user'
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x109940080 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:20:02 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>50, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0031926764004153955> new=#<Mongo::Server:Description:0x109957460 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 03:20:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>56, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.004754281120332316>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x76621240 type=uuid data=0xbd37128e5afa4f60...>}, {"id"=><BSON::Binary:0x76852100 type=uuid data=0xc54aebdd277443b4...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:20:30 -0500
+Started GET "/auth/spotify/callback?code=AQDSGv7a91y7UMoZ8m_BiSkxMxCUsGd7WpVHBLO3PBlZY6-34p_dj1GYud_ySwXbM_Gg_7zRrfl9G6J0MU-GTQqxwq3qAkhRFyvF_lxfT9MTtSxie9WDahjv5MuQT2WBAsuz6HZ-X7GNm7cZeORVhW9yexjCwcsSzK5WNHuSSlGehJsz9MZz7upByYuWOkKnkwBfxIW8sSdZFiuY4e7yeZeBM6V3u3Sgbo8zOfAzh-tDzZmcXk-PudsEAXzOdLovR43D77xwMzS3hRJrbAP4_RMGC-YT3-j6nrTJZIJZZ2Fd6_IkBTrpsFZ_e2oqWD1m03j-pVS-Hyw-CuzFCsavsR5eeA5q31RVlOTKT1O52UM1XMJzDKqNHDofHTOyk1SkMxr-toQSy5wYpeb0ItfaoPt-miMvQWwKmszN5etX3111yzivtbbp28Wi6kYWV5RJytTKYBmzda6II1sGRQVKcnxPTy3YRzE0JvZBbeLz2RYd2Qx1NMo5nvsNdk4efPX1481fTQCsyezhsp7mn6jyNs2VWPzZnCLYGodFZii2A4drYBaRxC-Ikgv7i_0LEPm9X6lw6iTtI-E3I72FAN7PaBFd8rD2aD1c&state=ee57b85a03dbe5d0a4bcc9c24bdc0ff4e0ece81a0fed750f" for ::1 at 2019-10-08 22:20:30 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQDSGv7a91y7UMoZ8m_BiSkxMxCUsGd7WpVHBLO3PBlZY6-34p_dj1GYud_ySwXbM_Gg_7zRrfl9G6J0MU-GTQqxwq3qAkhRFyvF_lxfT9MTtSxie9WDahjv5MuQT2WBAsuz6HZ-X7GNm7cZeORVhW9yexjCwcsSzK5WNHuSSlGehJsz9MZz7upByYuWOkKnkwBfxIW8sSdZFiuY4e7yeZeBM6V3u3Sgbo8zOfAzh-tDzZmcXk-PudsEAXzOdLovR43D77xwMzS3hRJrbAP4_RMGC-YT3-j6nrTJZIJZZ2Fd6_IkBTrpsFZ_e2oqWD1m03j-pVS-Hyw-CuzFCsavsR5eeA5q31RVlOTKT1O52UM1XMJzDKqNHDofHTOyk1SkMxr-toQSy5wYpeb0ItfaoPt-miMvQWwKmszN5etX3111yzivtbbp28Wi6kYWV5RJytTKYBmzda6II1sGRQVKcnxPTy3YRzE0JvZBbeLz2RYd2Qx1NMo5nvsNdk4efPX1481fTQCsyezhsp7mn6jyNs2VWPzZnCLYGodFZii2A4drYBaRxC-Ikgv7i_0LEPm9X6lw6iTtI-E3I72FAN7PaBFd8rD2aD1c", "state"=>"ee57b85a03dbe5d0a4bcc9c24bdc0ff4e0ece81a0fed750f"}
+Completed 204 No Content in 7ms (MongoDB: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:21:31 -0500
+Started GET "/auth/spotify/callback?code=AQDCJGRJ9gEg16P7oRgY8VRMyAZl0xADYt9k1wAtY_mpEdQv9IfuUfvE5gfcgjozY0nh9R__cHMHNsbABTRVQyZLKP6uVAghTwZlo_ROIIUTWkPjf6nAB7vpfWJwaqPc9cGsCk4fYkihKq-Y_rLX0yslxAQJbB3jJMOfCM1N0r-vSwU6ja-xrWtb4t-mITg9GOXFjI5w7Ba5B97pprkp7HqMpFIXrJVdrDInwkPDWoJjBS-6xUKDopK--6gSAxefYW-j7dpMWjcSk9ukQOvltF_TZa7dCU6Y7kXEDM_jBB7tigaNSQa-h8ct0BYUICS4mYTy5rop-VBTv0cbpEDTgcWKhVtI_SyjJh10c0WcCuRWyoYcWv5c6yWnyl-gPMFu_gbkwp2yWAjLp6ln27UJi6FdG_fJKTQ552mvgrjArlCA5EDSlUVdxEMR2QS3OxhcybPGUmWEZchnuVv0cjwHYuKFHme-1QP6cxINn0gNBH4miSc7iXdf-LjvFjs4jEQQXubF_79_SwAHsXpWr0_8UTyowtLLwsSpPGSUSIreu1FyZIO2w07GRYCHwKQgwW1Fasdryf-ehnhWGxo14VebJQfds2pM7Uet&state=af5b4802844a30097e8c6a2b3e294d442256e50b762532c7" for ::1 at 2019-10-08 22:21:31 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQDCJGRJ9gEg16P7oRgY8VRMyAZl0xADYt9k1wAtY_mpEdQv9IfuUfvE5gfcgjozY0nh9R__cHMHNsbABTRVQyZLKP6uVAghTwZlo_ROIIUTWkPjf6nAB7vpfWJwaqPc9cGsCk4fYkihKq-Y_rLX0yslxAQJbB3jJMOfCM1N0r-vSwU6ja-xrWtb4t-mITg9GOXFjI5w7Ba5B97pprkp7HqMpFIXrJVdrDInwkPDWoJjBS-6xUKDopK--6gSAxefYW-j7dpMWjcSk9ukQOvltF_TZa7dCU6Y7kXEDM_jBB7tigaNSQa-h8ct0BYUICS4mYTy5rop-VBTv0cbpEDTgcWKhVtI_SyjJh10c0WcCuRWyoYcWv5c6yWnyl-gPMFu_gbkwp2yWAjLp6ln27UJi6FdG_fJKTQ552mvgrjArlCA5EDSlUVdxEMR2QS3OxhcybPGUmWEZchnuVv0cjwHYuKFHme-1QP6cxINn0gNBH4miSc7iXdf-LjvFjs4jEQQXubF_79_SwAHsXpWr0_8UTyowtLLwsSpPGSUSIreu1FyZIO2w07GRYCHwKQgwW1Fasdryf-ehnhWGxo14VebJQfds2pM7Uet", "state"=>"af5b4802844a30097e8c6a2b3e294d442256e50b762532c7"}
+Completed 204 No Content in 14ms (MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:21:39 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:41:in `new'
+app/controllers/api/v1/playlists_controller.rb:41:in `set_spotify_user'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:21:58 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 8ms (MongoDB: 0.0ms)
+
+
+  
+NameError (uninitialized class variable @@spotify_user in Api::V1::PlaylistsController):
+  
+app/controllers/api/v1/playlists_controller.rb:5:in `index'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:22:08 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 2ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `playlists' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:5:in `index'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:27:09 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:5:in `new'
+app/controllers/api/v1/playlists_controller.rb:5:in `index'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:27:49 -0500
+Started GET "/auth/spotify/callback?code=AQALm8YXc4NknQgbPUtv7mCVPrUesPalN1jeK71TThO4l4AeNl-IT6CVtZmgWyWialJ4AjEOx8BP6eGNjavgHEnpNYPn3rQZFkyE8RLXJT0Uedfh9Fv5D4rmGq2uMtM-QME623m8s1vH__Ho6NxBUfnFdujrC8ZziKq5nWA_F_JTyiFPwBlxumcZhOY4vpsJ0oC7ATKQKwTMwARorFghhQjhfaeDPKGsE4i_GbXVvAcxu-_4BpyNBc_5MKMk9RV6DHSkVqwCvBNW4AciL0VLN-eQWJdwfc2e6SXMe7A8SMZPbe638yWBT1qtb5KikUMthxbPpT5vlpE6EiaPkrjhk1BObRgKenKrYZtZMTqWLHtjoXoXj6ZG4SDZwqWM5tDiToJOtjxj3CIh1ZiOss2ILPvK1IOnvLOOmsY_ZydJHaNpZYtKAQDk-XuWnH01u5UGq3e9Ke5VP4Ic-fOhtnq4g3mvMArEtqfBdDZAJ2A4-2iXNaAMePPKEAt0n2C6MLnU2Zi0pB3USbOxVbThvS27NSYlV6p7irSjbP0T-ZCiHIsyqMKIn8zBK_XW2Xcv8KZGxLhk5jj-pJElu1D8meuOnwt2TwU8X7Zs&state=e29dbce2ee194b49d80ac414d8ec6013dff69fcf70442c72" for ::1 at 2019-10-08 22:27:49 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQALm8YXc4NknQgbPUtv7mCVPrUesPalN1jeK71TThO4l4AeNl-IT6CVtZmgWyWialJ4AjEOx8BP6eGNjavgHEnpNYPn3rQZFkyE8RLXJT0Uedfh9Fv5D4rmGq2uMtM-QME623m8s1vH__Ho6NxBUfnFdujrC8ZziKq5nWA_F_JTyiFPwBlxumcZhOY4vpsJ0oC7ATKQKwTMwARorFghhQjhfaeDPKGsE4i_GbXVvAcxu-_4BpyNBc_5MKMk9RV6DHSkVqwCvBNW4AciL0VLN-eQWJdwfc2e6SXMe7A8SMZPbe638yWBT1qtb5KikUMthxbPpT5vlpE6EiaPkrjhk1BObRgKenKrYZtZMTqWLHtjoXoXj6ZG4SDZwqWM5tDiToJOtjxj3CIh1ZiOss2ILPvK1IOnvLOOmsY_ZydJHaNpZYtKAQDk-XuWnH01u5UGq3e9Ke5VP4Ic-fOhtnq4g3mvMArEtqfBdDZAJ2A4-2iXNaAMePPKEAt0n2C6MLnU2Zi0pB3USbOxVbThvS27NSYlV6p7irSjbP0T-ZCiHIsyqMKIn8zBK_XW2Xcv8KZGxLhk5jj-pJElu1D8meuOnwt2TwU8X7Zs", "state"=>"e29dbce2ee194b49d80ac414d8ec6013dff69fcf70442c72"}
+Completed 200 OK in 477ms (Views: 10.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:27:59 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:5:in `new'
+app/controllers/api/v1/playlists_controller.rb:5:in `index'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:28:50 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 87ms (MongoDB: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `spotify_user' for #<Api::V1::PlaylistsController:0x000000000cc84d60>):
+  
+app/controllers/api/v1/playlists_controller.rb:6:in `index'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:29:13 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:42:in `new'
+app/controllers/api/v1/playlists_controller.rb:42:in `set_spotify_user'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:32:48 -0500
+Started GET "/auth/spotify/callback?code=AQBuDG67PoPJuG9YIEnQKB31pRQMB8kAyYftak4UYxswO_XoljHixbe2vFrbdrOr2MTGGvHj6w4W5skGPRkg98JWnS8lyv9FOb8sghoXhopepFh5jzQeZChA_j44U430KXvFLOFCNiZacnfHqPdxXkHocmckQL33aupvzeoAXDfnixyTCWSrLZILi0X0AKyNNkJTOO7_zmxSQcE0LTV73RnTS_FJ7Z-SnIzoTIbxWC9c0JKJfQVGTruWdCubBSZcaDyJwN3s_8zIhF6rRNA9undH0QGJLtaElF1LQZPm0jhmQNEhLAQcCEmlB93ZKN5ufD3BA30IwKouldU0nsUl1aVb3TfAuebT1HGQkVVAptFxyTBJah-fYYGjqCXzDw8LMLsCQ6V5e5aoagWebsKgo2BMaykVQ2EJLOV4pRPsVDx9XyFDaGJ-Y0gRsx2XPNXwzjilDzzQzVLJZGK0GBYwnEkgVnAs6Pp-HV8fN-B2XIGNH11JqDsqS3cxy5fX4Ir-_Oy2PgLXff6m9X1nWhelCJITYuRZgP6pq7DqUFegHd3uvRfy3GBiWq8lxa_m4NA50dUmyZfihAPfmMnwtkLQsENXCgvjZqPB&state=9e5769fd41927913ecea49f81ccf2e0c2ebfbac723f8eca4" for ::1 at 2019-10-08 22:32:48 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQBuDG67PoPJuG9YIEnQKB31pRQMB8kAyYftak4UYxswO_XoljHixbe2vFrbdrOr2MTGGvHj6w4W5skGPRkg98JWnS8lyv9FOb8sghoXhopepFh5jzQeZChA_j44U430KXvFLOFCNiZacnfHqPdxXkHocmckQL33aupvzeoAXDfnixyTCWSrLZILi0X0AKyNNkJTOO7_zmxSQcE0LTV73RnTS_FJ7Z-SnIzoTIbxWC9c0JKJfQVGTruWdCubBSZcaDyJwN3s_8zIhF6rRNA9undH0QGJLtaElF1LQZPm0jhmQNEhLAQcCEmlB93ZKN5ufD3BA30IwKouldU0nsUl1aVb3TfAuebT1HGQkVVAptFxyTBJah-fYYGjqCXzDw8LMLsCQ6V5e5aoagWebsKgo2BMaykVQ2EJLOV4pRPsVDx9XyFDaGJ-Y0gRsx2XPNXwzjilDzzQzVLJZGK0GBYwnEkgVnAs6Pp-HV8fN-B2XIGNH11JqDsqS3cxy5fX4Ir-_Oy2PgLXff6m9X1nWhelCJITYuRZgP6pq7DqUFegHd3uvRfy3GBiWq8lxa_m4NA50dUmyZfihAPfmMnwtkLQsENXCgvjZqPB", "state"=>"9e5769fd41927913ecea49f81ccf2e0c2ebfbac723f8eca4"}
+Completed 200 OK in 309ms (Views: 18.4ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:32:56 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:42:in `new'
+app/controllers/api/v1/playlists_controller.rb:42:in `set_spotify_user'
+Started GET "/api/v1/playlists" for ::1 at 2019-10-08 22:33:41 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 500 Internal Server Error in 1ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:42:in `new'
+app/controllers/api/v1/playlists_controller.rb:42:in `set_user'
+Started GET "/api/v1/users" for ::1 at 2019-10-08 22:35:34 -0500
+  
+SyntaxError (C:/Users/andrewhwaller/Documents/GitHub/queuetify-rails/queuetify-api/app/controllers/api/v1/users_controller.rb:43: syntax error, unexpected tINTEGER, expecting do or '{' or '('
+... render json: @user, status 200
+...                            ^~~
+C:/Users/andrewhwaller/Documents/GitHub/queuetify-rails/queuetify-api/app/controllers/api/v1/users_controller.rb:50: syntax error, unexpected tINTEGER, expecting do or '{' or '('
+... render json: @user, status 200
+...                            ^~~):
+  
+app/controllers/api/v1/users_controller.rb:43: syntax error, unexpected tINTEGER, expecting do or '{' or '('
+app/controllers/api/v1/users_controller.rb:50: syntax error, unexpected tINTEGER, expecting do or '{' or '('
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:36:38 -0500
+Started GET "/auth/spotify/callback?code=AQAqGll-SYm7XNJhpvlilNqo0ZMCl7iOCjZ-TL7tpZP7H0LTkR9V0E6N5OHKX4QrXDDTDFgVDg7-79p-S1rj6TNnQg51RGhDTMwjBekg2HPe__LWqEk7f_5dSE00BQLb9gHMPgyeNOUj42sSUjJOWklz-JFpeeMBzKYBwa7Xe3nw4BRhRAuTlgssxd-aooWVqLrjnl5pe4CZwPzNhaGbpvbZwI5TejX5bySbrswJSUUP8Jt-7FDqQ9FFMsEY14TdaCGEhgwPH_6oLr6va7CzKgtK_FnGO6rUd3GBknZ5kIuWdlDteFBTVnkqqG56HFOrOsuxJWaBMsTiHa2stF4q-QJc3ST8zZxsQiqL16XPnNm6qJ0OntKyj4iuBLuJHpmdIInKKjO1ujVkLk9RPDyAG88q49s-0d3BtuG52EOR9sbJpSrldU-yW6EGYEJu0ZOyWbugB6zO6qI3vJaKecwla3fNG_SOg8E7vr7631mRqztZ5cDeKmzk7TkBOJsRg9OqaXOnQYrMsp6XxMF7EChPtJkXwWFOGzriL4luyRvw-XQ_L7TmbVVYBu3dHof1vAPJEKVExn_Kwz2NRGUHDKMRz5Cq8AFatDGH&state=e6e097c43fcd2e7617316d5097649985a6de39fae9e21795" for ::1 at 2019-10-08 22:36:38 -0500
+  
+SyntaxError (C:/Users/andrewhwaller/Documents/GitHub/queuetify-rails/queuetify-api/app/controllers/api/v1/users_controller.rb:41: syntax error, unexpected tINTEGER, expecting do or '{' or '('
+... json: spotify_user, status 200
+...                            ^~~
+C:/Users/andrewhwaller/Documents/GitHub/queuetify-rails/queuetify-api/app/controllers/api/v1/users_controller.rb:48: syntax error, unexpected tINTEGER, expecting do or '{' or '('
+... render json: @user, status 200
+...                            ^~~):
+  
+app/controllers/api/v1/users_controller.rb:41: syntax error, unexpected tINTEGER, expecting do or '{' or '('
+app/controllers/api/v1/users_controller.rb:48: syntax error, unexpected tINTEGER, expecting do or '{' or '('
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:38:33 -0500
+Started GET "/auth/spotify/callback?code=AQAMHGM815xhdwCbZGUAqjpMURKv_6Uq4V_QFTkgY8Qvlz9Oxv4jI79b9Ie8nQKeEKcDsHRsVIUcsYdQOi7p1YyLA2dImKg4CDfmKBGboFc8PS0s0HLrSVyQGebziAl0hVvY8MlfDQhCnJQBHi_rH5bG4Y5REtbdaWHNS6mJ6FTSJzAL4f4OJzbRQ_TI_yu-ZZGjD_XJRqrZMJs8iMLP2P4w52SVuEGEQVkXJtSkYYW2Jk-Q-wZHnX9Q136AfdORtsb4FNBVIZIh0yT7j5P59Ui-yy0lAxtc8Tnqn_tw5cS3yfkCihwBHQaIqVq_ANcyHj73YRjmkAF8_xyJKB0X1XB4-t400VM-3Z02PurhUAtUWyoPAgW6YPBR7YbumSAwsYtwGp2pzQuqFlc3zV0iCPE-hRcwXQncXiLw11XK5wrP86EaLRO5sIsvOqDivKexiLkBKOi0L19aaafJyqhOtPGXNmVFr0yhevb2Aloh9yeakSRFwcA9AVjLJS6aJn0gxVMvb1kucxd3vva4AFOA5a-kZM3aVdZLZjWT_y6KKBi5sNdvUh8W8XOr1aR1Vse1VguvEUZdVyx7RN3JARLSxBhph0anLjT_&state=6e82e3d63b55eb00cd053d59559042fd45a1deb0b6532b2d" for ::1 at 2019-10-08 22:38:33 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQAMHGM815xhdwCbZGUAqjpMURKv_6Uq4V_QFTkgY8Qvlz9Oxv4jI79b9Ie8nQKeEKcDsHRsVIUcsYdQOi7p1YyLA2dImKg4CDfmKBGboFc8PS0s0HLrSVyQGebziAl0hVvY8MlfDQhCnJQBHi_rH5bG4Y5REtbdaWHNS6mJ6FTSJzAL4f4OJzbRQ_TI_yu-ZZGjD_XJRqrZMJs8iMLP2P4w52SVuEGEQVkXJtSkYYW2Jk-Q-wZHnX9Q136AfdORtsb4FNBVIZIh0yT7j5P59Ui-yy0lAxtc8Tnqn_tw5cS3yfkCihwBHQaIqVq_ANcyHj73YRjmkAF8_xyJKB0X1XB4-t400VM-3Z02PurhUAtUWyoPAgW6YPBR7YbumSAwsYtwGp2pzQuqFlc3zV0iCPE-hRcwXQncXiLw11XK5wrP86EaLRO5sIsvOqDivKexiLkBKOi0L19aaafJyqhOtPGXNmVFr0yhevb2Aloh9yeakSRFwcA9AVjLJS6aJn0gxVMvb1kucxd3vva4AFOA5a-kZM3aVdZLZjWT_y6KKBi5sNdvUh8W8XOr1aR1Vse1VguvEUZdVyx7RN3JARLSxBhph0anLjT_", "state"=>"6e82e3d63b55eb00cd053d59559042fd45a1deb0b6532b2d"}
+Filter chain halted as :set_user rendered or redirected
+Completed 200 OK in 1ms (Views: 0.7ms | MongoDB: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:48:56 -0500
+Started GET "/auth/spotify/callback?code=AQCqqDuGdNM4Sp5-2V0P0rPzEOjlbgfOX_PImF6drSP1BZK3M7Frc_reaKs2286jNiuIpasIk41hrvY_JdwWNgSWl2vee8zsBiz_IAEV2PFb0oNFgRoK-Yas6yYN9rODUrh-cJ4IzS-fwTy0LGQQYW5Q2bfSEk9Vwq1iTaiVP53htIq4eR2jssD7u99nPLuiLSOsIs86ZtcXQEYPTHNag5ImAxUYZxqNSY1xamgfZgVaKd7MCPWP_ysfdMjAGGv99rUB9MslJhVAuHmK5ulvrzLVR3TxqTWWlorG20Y3ncRPFJqZdEWTdc6OVtrCu132ZFeHuhMPyZcVP52vXP8MpKbCMSg5ey-dRcZkPR5OGczqIugXDAGfzdTZscGV4tnT00LU4OQkThwh7YFjsAsfoqLMJVABW_aY1hKGXerlv61ecMYgq8oFfmH_lsusgozvJSQSfr6h_Z4shnFeAp2hqpRgodfn4XGsp5KlXnwS8Aotv_EsTBMgCbIQsYL1eBo6FxrX_JhKizorGjgUTOtyxYdNqeEsOVEKGbJvRTfLXZN-RZms3gR3C8l5CtXQd_OFS3_v9QqaO1cWcztl0QRisuzN69zyq3bi&state=1c57ad322e8a784b6e781c128eb801c960a6e419b3ec3dec" for ::1 at 2019-10-08 22:48:57 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQCqqDuGdNM4Sp5-2V0P0rPzEOjlbgfOX_PImF6drSP1BZK3M7Frc_reaKs2286jNiuIpasIk41hrvY_JdwWNgSWl2vee8zsBiz_IAEV2PFb0oNFgRoK-Yas6yYN9rODUrh-cJ4IzS-fwTy0LGQQYW5Q2bfSEk9Vwq1iTaiVP53htIq4eR2jssD7u99nPLuiLSOsIs86ZtcXQEYPTHNag5ImAxUYZxqNSY1xamgfZgVaKd7MCPWP_ysfdMjAGGv99rUB9MslJhVAuHmK5ulvrzLVR3TxqTWWlorG20Y3ncRPFJqZdEWTdc6OVtrCu132ZFeHuhMPyZcVP52vXP8MpKbCMSg5ey-dRcZkPR5OGczqIugXDAGfzdTZscGV4tnT00LU4OQkThwh7YFjsAsfoqLMJVABW_aY1hKGXerlv61ecMYgq8oFfmH_lsusgozvJSQSfr6h_Z4shnFeAp2hqpRgodfn4XGsp5KlXnwS8Aotv_EsTBMgCbIQsYL1eBo6FxrX_JhKizorGjgUTOtyxYdNqeEsOVEKGbJvRTfLXZN-RZms3gR3C8l5CtXQd_OFS3_v9QqaO1cWcztl0QRisuzN69zyq3bi", "state"=>"1c57ad322e8a784b6e781c128eb801c960a6e419b3ec3dec"}
+Filter chain halted as :set_user rendered or redirected
+Completed 200 OK in 12ms (Views: 0.4ms | MongoDB: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:49:40 -0500
+Started GET "/auth/spotify/callback?code=AQDXm3cLnIDVGSxFidbbgq1GmIyRxGlEwK5XKR6bUSdFcRVSv0_J04PDxh56A1iII28tkoGv8tWFFyh6hplFijtP6IyHuQVYMcax4_JMDJP3sH0gwgyPhAA5dgGkrDwLSGl2b6CibRnXPhqodZ4qiy_W4OzAKsYRhHvx-TXedHIzHrPR82L7-T8Xsnl4IplRwpjocQU9cnbJgHE3jAY9ctCdqXlnT_mIZI1nO9nANjhf9e_q-ef9JqI4O0ZDWFkb8ivtIDtf-TjnzdB9_PQnRNigsvh-r64zIeoCW0L867bnP1B4rMNCp1S3mIpWb9umPF6LGwM3nTIPHZBvx7y26MJ0UN3uD3pCkjGiRSBTSVhzH35dMZ9A6Lk_CdO2Jrj4ONy8XKS0SHYmk20krzJEmWBhHXS_lnEAi_z_ty6VMm5DugfGSlQIGIG8yE4mn95LzEJgGUGM-WzTOdM26NpnkReIYOe5ZkngSkMwMbjRhT_Z4R4EWZeJpC96IyIhajuXNItT2_aAZLNllz1I3qEXBc5GZVCizguEBLbHuEmE7bCX8FTpqdZgGrfmOj5d6IiG36sGgvbW52nZbzrfZoCGEJdJtwc0FHGP&state=ad37494aa29c9a6fe6973139898129b6b8a0ea0efede5fe8" for ::1 at 2019-10-08 22:49:40 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQDXm3cLnIDVGSxFidbbgq1GmIyRxGlEwK5XKR6bUSdFcRVSv0_J04PDxh56A1iII28tkoGv8tWFFyh6hplFijtP6IyHuQVYMcax4_JMDJP3sH0gwgyPhAA5dgGkrDwLSGl2b6CibRnXPhqodZ4qiy_W4OzAKsYRhHvx-TXedHIzHrPR82L7-T8Xsnl4IplRwpjocQU9cnbJgHE3jAY9ctCdqXlnT_mIZI1nO9nANjhf9e_q-ef9JqI4O0ZDWFkb8ivtIDtf-TjnzdB9_PQnRNigsvh-r64zIeoCW0L867bnP1B4rMNCp1S3mIpWb9umPF6LGwM3nTIPHZBvx7y26MJ0UN3uD3pCkjGiRSBTSVhzH35dMZ9A6Lk_CdO2Jrj4ONy8XKS0SHYmk20krzJEmWBhHXS_lnEAi_z_ty6VMm5DugfGSlQIGIG8yE4mn95LzEJgGUGM-WzTOdM26NpnkReIYOe5ZkngSkMwMbjRhT_Z4R4EWZeJpC96IyIhajuXNItT2_aAZLNllz1I3qEXBc5GZVCizguEBLbHuEmE7bCX8FTpqdZgGrfmOj5d6IiG36sGgvbW52nZbzrfZoCGEJdJtwc0FHGP", "state"=>"ad37494aa29c9a6fe6973139898129b6b8a0ea0efede5fe8"}
+Completed 500 Internal Server Error in 199550ms (Views: 1.2ms | MongoDB: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `set_user'
+app/controllers/api/v1/users_controller.rb:54:in `set_user'
+Started GET "/auth/spotify" for ::1 at 2019-10-08 22:53:29 -0500
+Started GET "/auth/spotify/callback?code=AQB20FcYf4RouXEPq-wLIPzpctP79S9coRQS5dl0JGFUbXrlyvxwO7ienLdkRJt5jkOpoBMCMr1gi9r0fBVPumV1JseBhyD_cavByBf20tiU99IkJm0b7ArkdgJ4kJYO9jOsoL6zcX1rukzKacj34jFb5QkrZnR7CNYkyUbs_AHiSFDB1OraSoyihHsolp83inGuFxoxYTo-nNqDr5rOEQEso4LD2I3eVRVDQZ87Jub16F_Q30BisaowY4mUeKYYRvfqosxotWQQj1iBOOieK1B0cSr7cn6eWBg42XIVeBZCslWp346SXZexXxy5anYwkFq1arCVdssTDeHDi15eDbrSAHlkqwkRKvQ6WeFR8wGMLNGgSDC37DjQxMwtoHizfcGtnzhgmqWY11RClMsDDA2-JmbI_MrSucUiAootqR8TraP5uLm6HzrGtNXf-MyfOD8dwu6h88qoldewxzT88RurMS3XeSXxUZ0y0p2uqgnb6js-b5LCR07Q2bnziVN_tT9-jUTDqkVSEyi1CZkB2RWb90S7knGcuXNfccdTcFGUhkGm8TGesJKp6qU-zg8Jw75o1Dz2q6FrbhZyeti4u7yTsbszJrbC&state=66359a8c64849ff89340fd4777d36297227aef9c45c40ea9" for ::1 at 2019-10-08 22:53:29 -0500
+Processing by Api::V1::UsersController#spotify as HTML
+  Parameters: {"code"=>"AQB20FcYf4RouXEPq-wLIPzpctP79S9coRQS5dl0JGFUbXrlyvxwO7ienLdkRJt5jkOpoBMCMr1gi9r0fBVPumV1JseBhyD_cavByBf20tiU99IkJm0b7ArkdgJ4kJYO9jOsoL6zcX1rukzKacj34jFb5QkrZnR7CNYkyUbs_AHiSFDB1OraSoyihHsolp83inGuFxoxYTo-nNqDr5rOEQEso4LD2I3eVRVDQZ87Jub16F_Q30BisaowY4mUeKYYRvfqosxotWQQj1iBOOieK1B0cSr7cn6eWBg42XIVeBZCslWp346SXZexXxy5anYwkFq1arCVdssTDeHDi15eDbrSAHlkqwkRKvQ6WeFR8wGMLNGgSDC37DjQxMwtoHizfcGtnzhgmqWY11RClMsDDA2-JmbI_MrSucUiAootqR8TraP5uLm6HzrGtNXf-MyfOD8dwu6h88qoldewxzT88RurMS3XeSXxUZ0y0p2uqgnb6js-b5LCR07Q2bnziVN_tT9-jUTDqkVSEyi1CZkB2RWb90S7knGcuXNfccdTcFGUhkGm8TGesJKp6qU-zg8Jw75o1Dz2q6FrbhZyeti4u7yTsbszJrbC", "state"=>"66359a8c64849ff89340fd4777d36297227aef9c45c40ea9"}
+Completed 200 OK in 395ms (Views: 9.9ms | MongoDB: 0.0ms)
+
+
