@@ -6,6 +6,7 @@ Rails.application.routes.draw do
       resources :playlists
       resources :sessions, only: [:create, :destroy]
       resources :users
+      #TODO add devise routes so devise can create users on callback
       resources :tracks do
         collection do
           get :top_100
