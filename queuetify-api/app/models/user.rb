@@ -39,6 +39,7 @@ class User
   field :provider, type: String
   field :refresh_token, type: String
   field :token, type: String
+  field :rspotify_user_hash, type: Hash
 
 
   def self.from_omniauth(auth)
@@ -46,8 +47,7 @@ class User
       user.token = auth.credentials.token
       user.refresh_token = auth.credentials.refresh_token
       user.email = auth.info.email
-      user.first_name = auth.info.first_name
-      user.last_name = auth.info.last_name
+      user.display_name = auth.info.display_name
       user.provider = auth.provider
       user.uid = auth.uid
       user.password = Devise.friendly_token[0,20]

@@ -6,7 +6,6 @@ Rails.application.routes.draw do
       resources :playlists
       resources :sessions, only: [:create, :destroy]
       resources :users
-      #TODO add devise routes so devise can create users on callback
       resources :tracks do
         collection do
           get :top_100
@@ -16,5 +15,5 @@ Rails.application.routes.draw do
       end
     end
   end
-  get '/auth/spotify/callback', to: 'api/v1/users#spotify'
+  devise_for :users, :controllers => { omniauth_callbacks: "users/omniauth_callbacks" }
 end

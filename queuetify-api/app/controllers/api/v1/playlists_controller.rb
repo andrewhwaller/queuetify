@@ -1,8 +1,9 @@
 class Api::V1::PlaylistsController < ApplicationController
+  before_action :authenticate_user!
   before_action :set_user
 
   def index
-    playlists = @user.playlists
+    playlists = @rspotify_user.playlists
 
     render json: playlists, status: 200
   end
@@ -40,6 +41,6 @@ class Api::V1::PlaylistsController < ApplicationController
   end
 
   def set_user
-    @user = RSpotify::User.new(request.env['omniauth.auth'])
+    @rspotify_user = RSpotify::User.new(current_user.rspotify_user_hash)
   end
 end
