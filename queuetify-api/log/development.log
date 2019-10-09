@@ -1302,3 +1302,164 @@ MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[local
 MONGODB | Topology type 'Single' changed to type 'Single'.
 MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x75069340 type=uuid data=0xfa4ec9fb9c2643ea...>}]}
 MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Overwriting existing field email in class User.
+Started GET "/users/auth/spotify" for ::1 at 2019-10-08 19:19:49 -0500
+Started GET "/users/auth/spotify/callback?code=AQDtNjzJty1-KkUTTRRFGSaRIImWb2rt4HX96ECOMWNUltUXeFBsqGMErraxelpfX1ytTe8-TPjK9rvCBjT7BEH6BlUcqZJonhyYgEWMF8UbU-FFEPjLir9Ywsb-VOjNZY-1u5J89tfAFHf7VtxXuTMHnHY3OgVArciEfMKbf5FF008tE_o7uzkGX2rJZ1_xoNTZuYbSOXiYk3xgT3gDR6Pn79qBjibwWMngBVkqjlc_xDqvDF-8RWSCO7vuJKTPRPZnJILcRQxV837slpXdkld-FYSS-IbvUFOH-TLZ7NQxHnO8wEtFBErod4y69flYfciTCw4YTRykIc-fMKu5NDOQrs__Wg63nHAFIRazYsK_sPMIKMtMbw9Z47puXQ9wZuTVBdT03dwHdOp89EcOLzpVjdUTvLlHwBopC2-x5JDkJNElgZhtSyx6WSonTueTdXgV3CjTR80I2hFCEwBPqh0vyJmY5GU905NS8In4fidix_ZCAMIFxK9bSxOHDWAjk9wLy_BsLqa5fuQNuXg4vOU2C1pUtNP_Ita7a84RW01VpxzJDLG9yVcpTWIYKU2gVY1Pl4wEJrhK9ak_aDRbYnnlx2NCy-f-bC7rEI3N&state=4c56b3eaad1a46a3eeeeafc6e5005d63ffb4473d6ac6033b" for ::1 at 2019-10-08 19:19:49 -0500
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+  Parameters: {"code"=>"AQDtNjzJty1-KkUTTRRFGSaRIImWb2rt4HX96ECOMWNUltUXeFBsqGMErraxelpfX1ytTe8-TPjK9rvCBjT7BEH6BlUcqZJonhyYgEWMF8UbU-FFEPjLir9Ywsb-VOjNZY-1u5J89tfAFHf7VtxXuTMHnHY3OgVArciEfMKbf5FF008tE_o7uzkGX2rJZ1_xoNTZuYbSOXiYk3xgT3gDR6Pn79qBjibwWMngBVkqjlc_xDqvDF-8RWSCO7vuJKTPRPZnJILcRQxV837slpXdkld-FYSS-IbvUFOH-TLZ7NQxHnO8wEtFBErod4y69flYfciTCw4YTRykIc-fMKu5NDOQrs__Wg63nHAFIRazYsK_sPMIKMtMbw9Z47puXQ9wZuTVBdT03dwHdOp89EcOLzpVjdUTvLlHwBopC2-x5JDkJNElgZhtSyx6WSonTueTdXgV3CjTR80I2hFCEwBPqh0vyJmY5GU905NS8In4fidix_ZCAMIFxK9bSxOHDWAjk9wLy_BsLqa5fuQNuXg4vOU2C1pUtNP_Ita7a84RW01VpxzJDLG9yVcpTWIYKU2gVY1Pl4wEJrhK9ak_aDRbYnnlx2NCy-f-bC7rEI3N", "state"=>"4c56b3eaad1a46a3eeeeafc6e5005d63ffb4473d6ac6033b"}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x65049360 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x65565740 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:19:50 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>14, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0120007>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x65565740 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:19:50 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>14, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0120007> new=#<Mongo::Server:Description:0x70003120 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:19:50 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>16, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0118007>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x69818680 type=uuid data=0x48dd6b25a49f498c...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.130s
+Completed 500 Internal Server Error in 252ms (MongoDB: 0.1ms)
+
+
+  
+Mongoid::Errors::UnknownAttribute (
+message:
+  Attempted to set a value for 'provider' which is not allowed on the model User.
+summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call User#provider= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  
+app/models/user.rb:42:in `from_omniauth'
+app/controllers/users/omniauth_callbacks_controller.rb:5:in `spotify'
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x70003120 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:19:50 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>16, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0118007> new=#<Mongo::Server:Description:0x60687480 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:20:00 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>14, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.00944056>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x60809000 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:20:40 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>14, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.004329289376000002> new=#<Mongo::Server:Description:0x60819100 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:20:41 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>18, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.005463531500800002>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x69818680 type=uuid data=0x48dd6b25a49f498c...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Overwriting existing field email in class User.
+Started GET "/users/auth/spotify" for ::1 at 2019-10-08 19:21:05 -0500
+Started GET "/users/auth/spotify/callback?code=AQA62lpGi6v16179zSl9ofIA1ZjNblHIJ26UNcfFbKtwuLEMUWJgosFJOIeOK6UK8rGtGRLlC_XKAETFMCmv8Py1eHXNotpM_ZN7L65gYn0pAAFTEMkZpr9a8dT7WOaowfIeWnIMHV92J_Mpm15rdmtIzdiG6J8frUV9kcr7VvexSyqGlX1z17PO4UZ0e51b1mIq8EOVrBq1i7QTvY2GYYfKXssJmVIfL1vreaRa_R5--BgpeOCIwRSqdvUGMSkbjPFbAc99KbXpxR3cCXAYZGGDNJJO32tG-rEh6ylEElisfFvDd6hN2knWVSyYpF_KPMbWTnSiGroDu1DZOtKddzwh0TAabFi2RR7j22pHGQEIb5IcAXTbIsnLNJ4DGS8C8szEsTT9h6PrQvWIeE2EeOX-Mpj0gxP3tlgp6IVfIBBYqtUWzKKz3WEOIQ6jvScrh71jXBXxL_DEwDm5bEXdZd60-5RodsODHJ8yn39jElFseyoV8AYStbFPL9ihaRZS3ciDSoUz1BYZgyh4Rib4umDR4BeDQ1jmUDI7tVSb96fCfvUxjwGO9Zc0aA3tQO9V_dOlhhHpeG2OMs8AKjbEDRxgGtnPeA7R4QQujgAl&state=a583e6b0e918c9b7270b39a58cae3204cac0e9626a76a292" for ::1 at 2019-10-08 19:21:05 -0500
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+  Parameters: {"code"=>"AQA62lpGi6v16179zSl9ofIA1ZjNblHIJ26UNcfFbKtwuLEMUWJgosFJOIeOK6UK8rGtGRLlC_XKAETFMCmv8Py1eHXNotpM_ZN7L65gYn0pAAFTEMkZpr9a8dT7WOaowfIeWnIMHV92J_Mpm15rdmtIzdiG6J8frUV9kcr7VvexSyqGlX1z17PO4UZ0e51b1mIq8EOVrBq1i7QTvY2GYYfKXssJmVIfL1vreaRa_R5--BgpeOCIwRSqdvUGMSkbjPFbAc99KbXpxR3cCXAYZGGDNJJO32tG-rEh6ylEElisfFvDd6hN2knWVSyYpF_KPMbWTnSiGroDu1DZOtKddzwh0TAabFi2RR7j22pHGQEIb5IcAXTbIsnLNJ4DGS8C8szEsTT9h6PrQvWIeE2EeOX-Mpj0gxP3tlgp6IVfIBBYqtUWzKKz3WEOIQ6jvScrh71jXBXxL_DEwDm5bEXdZd60-5RodsODHJ8yn39jElFseyoV8AYStbFPL9ihaRZS3ciDSoUz1BYZgyh4Rib4umDR4BeDQ1jmUDI7tVSb96fCfvUxjwGO9Zc0aA3tQO9V_dOlhhHpeG2OMs8AKjbEDRxgGtnPeA7R4QQujgAl", "state"=>"a583e6b0e918c9b7270b39a58cae3204cac0e9626a76a292"}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x76972680 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x77292000 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:21:06 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>20, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0120007>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x77292000 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:21:06 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>20, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0120007> new=#<Mongo::Server:Description:0x78312340 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:21:06 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>22, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.011600680000000002>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x77042980 type=uuid data=0xca29bf0cb3a14ab4...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.011s
+Completed 500 Internal Server Error in 63ms (MongoDB: 0.0ms)
+
+
+  
+Mongoid::Errors::UnknownAttribute (
+message:
+  Attempted to set a value for 'provider' which is not allowed on the model User.
+summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call User#provider= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  
+app/models/user.rb:42:in `from_omniauth'
+app/controllers/users/omniauth_callbacks_controller.rb:5:in `spotify'
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x78312340 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:21:06 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>22, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.011600680000000002> new=#<Mongo::Server:Description:0x85221320 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:21:16 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>20, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.009280544000000002>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x64546020 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:27:06 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>20, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0040367229348825875> new=#<Mongo::Server:Description:0x64955520 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:27:08 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>24, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.00522947834790607>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x77042980 type=uuid data=0xca29bf0cb3a14ab4...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started GET "/users/auth/spotify" for ::1 at 2019-10-08 19:27:30 -0500
+Started GET "/users/auth/spotify/callback?code=AQDySnOXrmWMuwmUgU8FuJxF0bUlaTdyf4zXvOcs0kKg5u2EzJWPDGwjQTns73olm769Y2EE_cme2IMfgCZiySUMt6CwmstwiPLki1kgPxs_58-51gL7RjcGSuVfR52pfAmUEr7XpKZb-_9-bJJQzOO4jioYX2WS5xu5Yoaf1J8lPTkmIATf6IERz55dqwTdAuASprk5LhthRfi_VuOBjfxleqhZpzdCaQOLBW61pUFlOfiyk2hnncYfjD2BYdI2m2ymPUby4RowBu1pTlmd_HfSOfYhjKrVzRlizhgjNsKXBBOl1B8Df8It7qj1MehDhvAf0nLolSD7SM3fmDRUv4j3DH5vcmjCxB4m1fwB9FomeaQjQ_1uLWhVwn-2LZLp4_jRVxhkR3yYir9x-BtpYMBM9uoz5GIdmVC_eCswyOCCT1T0xyZycAPWdp1v6dedjCPDFARp8sIQZmPnXqHVbLoQVDuVlk7SCPwhS_2fw8Yof_blFie7aap_DIbs1o-CeyNejIO-5_gVdnjgOEZbR9HPTGUHF2GTVaN0u0MFp_GYj3-LHtVaxqaEfEzQFikDQozJoduyvAE-g2TcuINd34XRZgG3tXUpQTTezMQ7&state=a162d597df9f882a0fdd01ee237568485d613be99cdbee59" for ::1 at 2019-10-08 19:27:31 -0500
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+  Parameters: {"code"=>"AQDySnOXrmWMuwmUgU8FuJxF0bUlaTdyf4zXvOcs0kKg5u2EzJWPDGwjQTns73olm769Y2EE_cme2IMfgCZiySUMt6CwmstwiPLki1kgPxs_58-51gL7RjcGSuVfR52pfAmUEr7XpKZb-_9-bJJQzOO4jioYX2WS5xu5Yoaf1J8lPTkmIATf6IERz55dqwTdAuASprk5LhthRfi_VuOBjfxleqhZpzdCaQOLBW61pUFlOfiyk2hnncYfjD2BYdI2m2ymPUby4RowBu1pTlmd_HfSOfYhjKrVzRlizhgjNsKXBBOl1B8Df8It7qj1MehDhvAf0nLolSD7SM3fmDRUv4j3DH5vcmjCxB4m1fwB9FomeaQjQ_1uLWhVwn-2LZLp4_jRVxhkR3yYir9x-BtpYMBM9uoz5GIdmVC_eCswyOCCT1T0xyZycAPWdp1v6dedjCPDFARp8sIQZmPnXqHVbLoQVDuVlk7SCPwhS_2fw8Yof_blFie7aap_DIbs1o-CeyNejIO-5_gVdnjgOEZbR9HPTGUHF2GTVaN0u0MFp_GYj3-LHtVaxqaEfEzQFikDQozJoduyvAE-g2TcuINd34XRZgG3tXUpQTTezMQ7", "state"=>"a162d597df9f882a0fdd01ee237568485d613be99cdbee59"}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x75952040 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x76228980 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:27:31 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>26, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0220013>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x76228980 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:27:31 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>26, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0220013> new=#<Mongo::Server:Description:0x76514760 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:27:31 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>28, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.01980118>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x76280140 type=uuid data=0x79d1b3d60b6c4c06...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.011s
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"email"=>"andrewhwaller@gmail.com"}, "projection"=>{"_id"=>1}, "limit"=>1, "lsid"=>{"id"=><BSON::Binary:0x76280140 type=uuid data=0x79d1b3d60b6c4c06...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.030s
+MONGODB | localhost:27017 | queuetify_development.insert | STARTED | {"insert"=>"users", "ordered"=>true, "documents"=>[{"_id"=>BSON::ObjectId('5d9d297475b78416ec35b6f4'), "email"=>"andrewhwaller@gmail.com", "encrypted_password"=>"$2a$11$vWME/KY.gaGCqZRU.C48IeHFcl5Cl4Rt8MGcl6axvLl5pD9.Sbitq", "provider"=>"spotify", "ui...
+MONGODB | localhost:27017 | queuetify_development.insert | SUCCEEDED | 0.011s
+Redirected to http://localhost:3000/
+Completed 302 Found in 898ms (MongoDB: 0.1ms)
+
+
+Started GET "/" for ::1 at 2019-10-08 19:27:32 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.7ms)
+Completed 200 OK in 26ms (Views: 23.8ms | MongoDB: 0.0ms)
+
+
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x76514760 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:27:31 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>28, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.01980118> new=#<Mongo::Server:Description:0x54961660 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:27:41 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>26, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.015840944000000003>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x59293740 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:28:21 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>26, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.011368727462400006> new=#<Mongo::Server:Description:0x60272960 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:28:25 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>30, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.011095101969920005>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x76280140 type=uuid data=0x79d1b3d60b6c4c06...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x72212020 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x71963620 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:28:41 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>32, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0120006>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x71963620 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:28:41 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>32, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0120006> new=#<Mongo::Server:Description:0x72952540 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:28:41 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>34, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.011600600000000003>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{}, "sort"=>{"_id"=>-1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x72319860 type=uuid data=0xce8dd1029e9d4ea0...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.011s
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x72952540 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:28:41 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>34, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.011600600000000003> new=#<Mongo::Server:Description:0x78677220 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:28:51 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>32, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.011280600000000002>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x91740620 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:29:11 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>32, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.010819800000000001> new=#<Mongo::Server:Description:0x92426920 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-09 00:29:14 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>36, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.010655960000000003>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x72319860 type=uuid data=0xce8dd1029e9d4ea0...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.010s
