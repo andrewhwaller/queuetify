@@ -2711,3 +2711,268 @@ MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[local
 MONGODB | Topology type 'Single' changed to type 'Single'.
 MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x78650080 type=uuid data=0xfc9dcff556074721...>}]}
 MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:40:47 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 401 Unauthorized in 118ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-09 23:40:48 -0500
+Processing by Devise::SessionsController#new as */*
+Completed 200 OK in 103ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/users/auth/spotify" for ::1 at 2019-10-09 23:41:22 -0500
+Started GET "/users/auth/spotify/callback?code=AQAKAM6qCUzQrGgVNkey-uVqR-JeMxlkh-kRkEutBNTB__ztJ392UhHTfumMmkXzfyZdvIjEWi-VYp8zUR0k3-MLS0kFdke2ekk2J5vxyj44HBbH3L4r-VhybfmpY4FpTxRz7srS4kCnIyGQe1-DValnNv64mtclKqsPbuKqMt9kDgCBLyr7eleKf76Pe-k5Ihzu7Y9UQw_0hP3C4Obk4W_-8l-t5m6yxYI9CWcNsRnTurfN9P2GHeACmnhIQ2Yke4NQo64WXYnI-1uidJGY_rN_pdJBy0ljZaf89IJS0sOf8JMThdujmae8HJgHH54j4MYu_gu3B-D9TIWLpPH9LOsSDqa3LKrJe5OnaESH5GRwyg2w0ZbeOVAy03vLsdF9g5-rUVudg-MlPXlwu_W3lztxe4TMUJLfyYP6t9I5FmU42kJHpIFMdqzcndju9clTNbBjoMu5QMeUcYABX7gy8sx3yf7VCJ9W24NWQ5ZGF5uR_1ka3JK0TID0gvCGcR0pUixN6kQg_WHSym5BZTtDtgNs7uRS5TTx25fbDqu8BUElf20rMlkC7e9gefvuPvNEZkE5UlpF-G73hZ-z2n9x0B_2X4bI8dX_t9UxavQ0&state=f3514b879678ec7a7b98b935067bb7248b2006bc8c2656cf" for ::1 at 2019-10-09 23:41:22 -0500
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+  Parameters: {"code"=>"AQAKAM6qCUzQrGgVNkey-uVqR-JeMxlkh-kRkEutBNTB__ztJ392UhHTfumMmkXzfyZdvIjEWi-VYp8zUR0k3-MLS0kFdke2ekk2J5vxyj44HBbH3L4r-VhybfmpY4FpTxRz7srS4kCnIyGQe1-DValnNv64mtclKqsPbuKqMt9kDgCBLyr7eleKf76Pe-k5Ihzu7Y9UQw_0hP3C4Obk4W_-8l-t5m6yxYI9CWcNsRnTurfN9P2GHeACmnhIQ2Yke4NQo64WXYnI-1uidJGY_rN_pdJBy0ljZaf89IJS0sOf8JMThdujmae8HJgHH54j4MYu_gu3B-D9TIWLpPH9LOsSDqa3LKrJe5OnaESH5GRwyg2w0ZbeOVAy03vLsdF9g5-rUVudg-MlPXlwu_W3lztxe4TMUJLfyYP6t9I5FmU42kJHpIFMdqzcndju9clTNbBjoMu5QMeUcYABX7gy8sx3yf7VCJ9W24NWQ5ZGF5uR_1ka3JK0TID0gvCGcR0pUixN6kQg_WHSym5BZTtDtgNs7uRS5TTx25fbDqu8BUElf20rMlkC7e9gefvuPvNEZkE5UlpF-G73hZ-z2n9x0B_2X4bI8dX_t9UxavQ0", "state"=>"f3514b879678ec7a7b98b935067bb7248b2006bc8c2656cf"}
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x82272320 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x53828780 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-10 04:41:24 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>38, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=1.2350707>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x53828780 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-10 04:41:24 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>38, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=1.2350707> new=#<Mongo::Server:Description:0x61744660 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-10 04:41:24 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>40, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.9902566800000001>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.071s
+MONGODB | localhost:27017 | queuetify_development.update | STARTED | {"update"=>"users", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "u"=>{"$set"=>{"rspotify_user_hash"=>{"birthdate"=>nil, "country"=>"US", "display_name"=>"Andrew H. Waller", "email"=>"andrewhwaller@gmail.com"...
+MONGODB | localhost:27017 | queuetify_development.update | SUCCEEDED | 0.780s
+Completed 500 Internal Server Error in 2199ms (MongoDB: 0.9ms)
+
+
+  
+RuntimeError (Could not find a valid mapping for nil):
+  
+app/controllers/users/omniauth_callbacks_controller.rb:10:in `spotify'
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x61744660 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-10 04:41:24 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>40, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.9902566800000001> new=#<Mongo::Server:Description:0x71941720 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-10 04:41:34 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>38, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.7942054640000001>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:42:07 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 401 Unauthorized in 5ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-09 23:42:07 -0500
+Processing by Devise::SessionsController#new as */*
+Completed 200 OK in 1ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/auth/spotify" for ::1 at 2019-10-09 23:42:19 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/auth/spotify"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/auth/spotify" for ::1 at 2019-10-09 23:42:24 -0500
+Started GET "/users/auth/spotify/callback?code=AQA8AOPHyQFqZfy993Rrn1lwdJeakj0CsrVbJqd1C3FaoOH9ba4RsoxbGdssWwJnnsOVsEsmGZtnDimuAOjj077C2wMX0AKr7o7L24BFeqBM9rUx6LtVAXnom2qHNjxVquSK0xDMeR-P1fAQB5ncvpWdUyO-Nc_hFaSEr_90AmZir5xlEgVUdBqLmwq48A3b8bDFWm6t7wGGTtp4VPw3P0hOR85w0by-iqhSX0FQIPgb3d_wHH9sLabAiCvFOHLIsZBDufwfgHddixc7dhBWFokAfNpnW3IdL_WDoCnKJ3W3hQCoUnDCWXc0rRHuznfN0jzt-QD2XdI4-BhA5gFthhoR9cflFN0SyWen2vRs9dx1U0_peaTMez4eHLk74BQkhc53UAnDxY2G_PAIfbTvcbcNp-sPfT80xPi_tbxitOVBU-ZqWlNUAUUMZL0WKJV4G43xGT17kUkn1NUf91Xu3AhriamCQNpmTUhQzgDn75AfX9TraWr8UOlWXhgyvdXvhvPT7YKSR_X6HgL2gVQdHc_IRwDKOXD0NFyT2hF8qtB62lvOskqaLZn3prpRL19wP0cFSWx0cSYgcZiIX0_wcIvdKnDtWBRTS9biIdxw&state=b77eb64af08093175124dae9059bab2f69d01cd455a7c899" for ::1 at 2019-10-09 23:42:24 -0500
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+  Parameters: {"code"=>"AQA8AOPHyQFqZfy993Rrn1lwdJeakj0CsrVbJqd1C3FaoOH9ba4RsoxbGdssWwJnnsOVsEsmGZtnDimuAOjj077C2wMX0AKr7o7L24BFeqBM9rUx6LtVAXnom2qHNjxVquSK0xDMeR-P1fAQB5ncvpWdUyO-Nc_hFaSEr_90AmZir5xlEgVUdBqLmwq48A3b8bDFWm6t7wGGTtp4VPw3P0hOR85w0by-iqhSX0FQIPgb3d_wHH9sLabAiCvFOHLIsZBDufwfgHddixc7dhBWFokAfNpnW3IdL_WDoCnKJ3W3hQCoUnDCWXc0rRHuznfN0jzt-QD2XdI4-BhA5gFthhoR9cflFN0SyWen2vRs9dx1U0_peaTMez4eHLk74BQkhc53UAnDxY2G_PAIfbTvcbcNp-sPfT80xPi_tbxitOVBU-ZqWlNUAUUMZL0WKJV4G43xGT17kUkn1NUf91Xu3AhriamCQNpmTUhQzgDn75AfX9TraWr8UOlWXhgyvdXvhvPT7YKSR_X6HgL2gVQdHc_IRwDKOXD0NFyT2hF8qtB62lvOskqaLZn3prpRL19wP0cFSWx0cSYgcZiIX0_wcIvdKnDtWBRTS9biIdxw", "state"=>"b77eb64af08093175124dae9059bab2f69d01cd455a7c899"}
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+MONGODB | localhost:27017 | queuetify_development.update | STARTED | {"update"=>"users", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "u"=>{"$set"=>{"rspotify_user_hash"=>{"birthdate"=>nil, "country"=>"US", "display_name"=>"Andrew H. Waller", "email"=>"andrewhwaller@gmail.com"...
+MONGODB | localhost:27017 | queuetify_development.update | SUCCEEDED | 0.010s
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.001s
+Redirected to http://localhost:3000/
+Completed 500 Internal Server Error in 25827ms (MongoDB: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `spotify'
+app/controllers/users/omniauth_callbacks_controller.rb:12:in `spotify'
+Started GET "/users/auth/spotify" for ::1 at 2019-10-09 23:42:51 -0500
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:42:51 -0500
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:42:54 -0500
+Started GET "/users/auth/spotify/callback?code=AQClrzJRD1HMhzFyCRYq7Ni-12dTFleWgKDL_NV-vXGjmNFoZ7XT55T_fLTs5CYZ3AKqfbUddP2notmbNyZ7OmQlNjPe6XWkKCxfkHU8DOuMkc9hfZouCgCbF4nq34G-EJkYxpVWeKF7qmZn0G1KKokenrZU258F-eU6C83FgEv-dEFa7KJB189tGU3UIkXNEDSPmh66J5pnXWT9Xu0VrEkPNRuHcxBu_xTOfW2eZQoOXf5wn19HtMj01BgnN4cnoqCVQAihHVgrDwEIelZRheIUf3puYkCp1hgRKD3Z0n2PLqq0D11cqgXaFAUJLUu1eTqWNwEU5HSM1kwkZkDvbOII4t5BfXWAfw1OU4BLWSwrEAivTTmFnMKkL5o_6qudxR9u6RyxhRRSsfHDh5Ahq9Tot-shBsxW14Smv5iXTKkfS8YbNOeIDDKnMH6tooIrlNRrmY6Iwf15jwoqZc_KEMMdMFI8jC_qD53NF3x3F5sAclmRgSx1EzkHmUdCKTt8Wrv4WW9OTcrAmUIBx8RmmsK7-J5ICm1YnDzp9q_JociUUhRxlBvkvRBCL7dbn1ysjJSU--Fk7_2CihO74bn5S9txfaDWR3msSWgI4m0d&state=32dc936be67675fa5e54f6eab88178ce8a45b7660f55a059" for ::1 at 2019-10-09 23:42:55 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 401 Unauthorized in 9ms (MongoDB: 0.0ms)
+
+
+  Parameters: {"code"=>"AQClrzJRD1HMhzFyCRYq7Ni-12dTFleWgKDL_NV-vXGjmNFoZ7XT55T_fLTs5CYZ3AKqfbUddP2notmbNyZ7OmQlNjPe6XWkKCxfkHU8DOuMkc9hfZouCgCbF4nq34G-EJkYxpVWeKF7qmZn0G1KKokenrZU258F-eU6C83FgEv-dEFa7KJB189tGU3UIkXNEDSPmh66J5pnXWT9Xu0VrEkPNRuHcxBu_xTOfW2eZQoOXf5wn19HtMj01BgnN4cnoqCVQAihHVgrDwEIelZRheIUf3puYkCp1hgRKD3Z0n2PLqq0D11cqgXaFAUJLUu1eTqWNwEU5HSM1kwkZkDvbOII4t5BfXWAfw1OU4BLWSwrEAivTTmFnMKkL5o_6qudxR9u6RyxhRRSsfHDh5Ahq9Tot-shBsxW14Smv5iXTKkfS8YbNOeIDDKnMH6tooIrlNRrmY6Iwf15jwoqZc_KEMMdMFI8jC_qD53NF3x3F5sAclmRgSx1EzkHmUdCKTt8Wrv4WW9OTcrAmUIBx8RmmsK7-J5ICm1YnDzp9q_JociUUhRxlBvkvRBCL7dbn1ysjJSU--Fk7_2CihO74bn5S9txfaDWR3msSWgI4m0d", "state"=>"32dc936be67675fa5e54f6eab88178ce8a45b7660f55a059"}
+Completed 401 Unauthorized in 8ms (MongoDB: 0.0ms)
+
+
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.007s
+MONGODB | localhost:27017 | queuetify_development.update | STARTED | {"update"=>"users", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "u"=>{"$set"=>{"rspotify_user_hash"=>{"birthdate"=>nil, "country"=>"US", "display_name"=>"Andrew H. Waller", "email"=>"andrewhwaller@gmail.com"...
+Started GET "/users/sign_in" for ::1 at 2019-10-09 23:42:55 -0500
+MONGODB | localhost:27017 | queuetify_development.update | SUCCEEDED | 0.002s
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.011s
+Redirected to http://localhost:3000/
+Completed 302 Found in 222ms (MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-09 23:42:56 -0500
+Processing by Devise::SessionsController#new as */*
+Completed 200 OK in 16ms (Views: 1.1ms | MongoDB: 0.0ms)
+
+
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 166ms (Views: 103.8ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:43:02 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 401 Unauthorized in 4ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-09 23:43:02 -0500
+Processing by Devise::SessionsController#new as */*
+Completed 200 OK in 18ms (Views: 1.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:46:48 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+Completed 200 OK in 802ms (Views: 203.8ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:52:36 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 401 Unauthorized in 4ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-09 23:52:37 -0500
+Processing by Devise::SessionsController#new as */*
+Completed 200 OK in 16ms (Views: 1.5ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:53:31 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 401 Unauthorized in 10ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-09 23:53:31 -0500
+Processing by Devise::SessionsController#new as */*
+Completed 200 OK in 14ms (Views: 1.2ms | MongoDB: 0.0ms)
+
+
+Started GET "/users/auth/spotify" for ::1 at 2019-10-09 23:53:57 -0500
+Started GET "/users/auth/spotify/callback?code=AQCvjc4qaycXG4UXihpIZmTtaFKHwgSjtAFXVhj2vmtfIxSztFJd6jkOq8hqfkUpXZgZJq4bj9p5guPNDb4jHU8p7RHeazCYMfLhZHJq3bJW5HmEuXQHFsGRXBNVUSRUbyjQOWYM8qyOlFeO0-M0yt-vW8Hoz14IZqrv3GcRHHKSGG_iP0hRLXJbYXP0jx_EZqppquQ0tYxR0eVDPGtNki56L7BZwOjXxhYv6CYkxulgqgSoDWkrk-Sm-KfGPNxTHn_AkvJtwCvtvEL3Q4WGtFGkIQgmZlpcn_HtaRKcUlL8e_q83SjNUwhnOOTwgPmzproRa4hc2ncgNAauZ4WQs2XxKoOJw4FQBdsGSbNGg8mojKvejyo6hLI0v4V1xSjrxFJ23cgKkVL_E3WrJTjQ19i54RaYHHBPEQcsbJmYOZYNC9oBe4geqLaRZOVzHF0t2HUzcsGhHy5tBSqp-awza4BR6IiEv-jyw_QhYj1vqn17BmThqTNsJ2EmiUdbXDl7DqDkc5fn7OzWJhXLQHV7g25D6T1xjg8Fs7MIlWkE5kS_M_hDDiqcXmTQZLEO38tQWzQ4JDCYCd_-cIkIf5SRZibEVDLtSZed-SSp1xTt&state=2c21fca6418b3814cfdd0785bfb29757b4827be53bd7db4f" for ::1 at 2019-10-09 23:53:57 -0500
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+  Parameters: {"code"=>"AQCvjc4qaycXG4UXihpIZmTtaFKHwgSjtAFXVhj2vmtfIxSztFJd6jkOq8hqfkUpXZgZJq4bj9p5guPNDb4jHU8p7RHeazCYMfLhZHJq3bJW5HmEuXQHFsGRXBNVUSRUbyjQOWYM8qyOlFeO0-M0yt-vW8Hoz14IZqrv3GcRHHKSGG_iP0hRLXJbYXP0jx_EZqppquQ0tYxR0eVDPGtNki56L7BZwOjXxhYv6CYkxulgqgSoDWkrk-Sm-KfGPNxTHn_AkvJtwCvtvEL3Q4WGtFGkIQgmZlpcn_HtaRKcUlL8e_q83SjNUwhnOOTwgPmzproRa4hc2ncgNAauZ4WQs2XxKoOJw4FQBdsGSbNGg8mojKvejyo6hLI0v4V1xSjrxFJ23cgKkVL_E3WrJTjQ19i54RaYHHBPEQcsbJmYOZYNC9oBe4geqLaRZOVzHF0t2HUzcsGhHy5tBSqp-awza4BR6IiEv-jyw_QhYj1vqn17BmThqTNsJ2EmiUdbXDl7DqDkc5fn7OzWJhXLQHV7g25D6T1xjg8Fs7MIlWkE5kS_M_hDDiqcXmTQZLEO38tQWzQ4JDCYCd_-cIkIf5SRZibEVDLtSZed-SSp1xTt", "state"=>"2c21fca6418b3814cfdd0785bfb29757b4827be53bd7db4f"}
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.002s
+MONGODB | localhost:27017 | queuetify_development.update | STARTED | {"update"=>"users", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "u"=>{"$set"=>{"rspotify_user_hash"=>{"birthdate"=>nil, "country"=>"US", "display_name"=>"Andrew H. Waller", "email"=>"andrewhwaller@gmail.com"...
+MONGODB | localhost:27017 | queuetify_development.update | SUCCEEDED | 0.010s
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.001s
+Redirected to http://localhost:3000/
+Completed 302 Found in 187ms (MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-09 23:53:58 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (8.2ms)
+Completed 200 OK in 28ms (Views: 17.7ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:54:08 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 401 Unauthorized in 5ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-09 23:54:08 -0500
+Processing by Devise::SessionsController#new as */*
+Completed 200 OK in 14ms (Views: 1.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:54:13 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 401 Unauthorized in 4ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-09 23:54:13 -0500
+Processing by Devise::SessionsController#new as */*
+Completed 200 OK in 14ms (Views: 1.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-09 23:54:23 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 23ms (Views: 16.2ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:55:11 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 500 Internal Server Error in 372ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `rspotify_user_hash' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:44:in `set_user'
+Started GET "/users/auth/spotify" for ::1 at 2019-10-09 23:55:45 -0500
+Started GET "/users/auth/spotify/callback?code=AQCksWNXTFenGSgHRyzU3ZmRKAYlSMqwKbMO-kmtg9UfIUqMijOPC8cVpnIRBGBYQsjvTDGWQIIfupHOdeUHMZ4vEMTboZfGHjiIU907_4bQC9FSUPWNH7NwXBfmxPNaeh0nVrKmVnUw9uQDxnA5QrL6MV5W0QtG9QOp_qZ_l1k0hDPDqxf0D5lh2JLsJ-Dbnv3c5n0qZqKsx37w8Eu8CD9Cf73E68xdLwPJ6JTefn9Qx-qCjnir55_dkLthBPkJJoEv0i4ronEmQmOaJMMlFNknGaDOh6yUv45RLe1l-rJCPJKc5pR-nqaV6_JVQD1cwQoDP0DP8BtPQRrsSwjlebmecAhG10q_FQVq8fyVaIiGbmicjbOybnDe3Hwc6DQ7HXgjQaHwMK9Z5bp7aujFrMwrB4msh11MDbsfSyGmJt732Ot6aXPsW8WShCYKbX3CuWdRTyE_4NHLWBBoNnp9GYC_Q1AJhgkfKZklmOhusWwNiMBh4gsyZ7mFXvA7BudmwkyraP8PAkW4qsPzYuctltFPAR_eoSpJ-XJxUqrDVZJ3OecZhHDD2JdFWG0S5EbsCo96UKjtY-aq5l3-qJOPS2rl1nl-BHdm_CfimIZU&state=cbd661ca7384840350ffc254ef188a646458067fecefa9f8" for ::1 at 2019-10-09 23:55:45 -0500
+Processing by Users::OmniauthCallbacksController#spotify as HTML
+  Parameters: {"code"=>"AQCksWNXTFenGSgHRyzU3ZmRKAYlSMqwKbMO-kmtg9UfIUqMijOPC8cVpnIRBGBYQsjvTDGWQIIfupHOdeUHMZ4vEMTboZfGHjiIU907_4bQC9FSUPWNH7NwXBfmxPNaeh0nVrKmVnUw9uQDxnA5QrL6MV5W0QtG9QOp_qZ_l1k0hDPDqxf0D5lh2JLsJ-Dbnv3c5n0qZqKsx37w8Eu8CD9Cf73E68xdLwPJ6JTefn9Qx-qCjnir55_dkLthBPkJJoEv0i4ronEmQmOaJMMlFNknGaDOh6yUv45RLe1l-rJCPJKc5pR-nqaV6_JVQD1cwQoDP0DP8BtPQRrsSwjlebmecAhG10q_FQVq8fyVaIiGbmicjbOybnDe3Hwc6DQ7HXgjQaHwMK9Z5bp7aujFrMwrB4msh11MDbsfSyGmJt732Ot6aXPsW8WShCYKbX3CuWdRTyE_4NHLWBBoNnp9GYC_Q1AJhgkfKZklmOhusWwNiMBh4gsyZ7mFXvA7BudmwkyraP8PAkW4qsPzYuctltFPAR_eoSpJ-XJxUqrDVZJ3OecZhHDD2JdFWG0S5EbsCo96UKjtY-aq5l3-qJOPS2rl1nl-BHdm_CfimIZU", "state"=>"cbd661ca7384840350ffc254ef188a646458067fecefa9f8"}
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"provider"=>"spotify", "uid"=>"12472216"}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | queuetify_development.update | STARTED | {"update"=>"users", "ordered"=>true, "updates"=>[{"q"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "u"=>{"$set"=>{"rspotify_user_hash"=>{"birthdate"=>nil, "country"=>"US", "display_name"=>"Andrew H. Waller", "email"=>"andrewhwaller@gmail.com"...
+MONGODB | localhost:27017 | queuetify_development.update | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{"_id"=>BSON::ObjectId('5d9e046075b78420e4beb66d')}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.001s
+Redirected to http://localhost:3000/
+Completed 302 Found in 202ms (MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-09 23:55:46 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (4.0ms)
+Completed 200 OK in 27ms (Views: 16.0ms | MongoDB: 0.0ms)
+
+
+Started GET "/api/v1/playlists" for ::1 at 2019-10-09 23:55:50 -0500
+Processing by Api::V1::PlaylistsController#index as */*
+Completed 500 Internal Server Error in 364ms (MongoDB: 0.0ms)
+
+
+  
+NoMethodError (undefined method `rspotify_user_hash' for nil:NilClass):
+  
+app/controllers/api/v1/playlists_controller.rb:44:in `set_user'
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x114504800 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-10 04:56:02 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>38, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.032795340166997845> new=#<Mongo::Server:Description:0x112631340 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-10 04:56:11 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>42, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.03623685213359828>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x56093180 type=uuid data=0xfa58a36f3e314ba7...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.161s

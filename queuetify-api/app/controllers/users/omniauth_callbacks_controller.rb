@@ -7,7 +7,6 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     hash = rspotify_user.to_hash
     user.rspotify_user_hash = hash
     user.save
-    sign_in_and_redirect @user
-    byebug
+    sign_in_and_redirect user
   end
 end
