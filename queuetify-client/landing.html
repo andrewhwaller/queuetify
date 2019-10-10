@@ -16,14 +16,8 @@
   <script src="assets/library/jquery.min.js"></script>
 
   <style type="text/css">
-    body {
-
-    }
     body > .grid {
-      height: 100%;
-    }
-    .column {
-      max-width: 450px;
+      height: 100vh;
     }
     .landing-tagline {
       color: white;
@@ -32,12 +26,21 @@
     .spotify-login {
       margin-top: 3rem;
     }
+    .noselect {
+      -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+      -khtml-user-select: none; /* Konqueror HTML */
+      -moz-user-select: none; /* Firefox */
+      -ms-user-select: none; /* Internet Explorer/Edge */
+      user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+    }
   </style>
 </head>
 <body>
 
 <div class="ui middle aligned center aligned grid">
-  <div class="column">
+  <div class="column noselect">
     <h2 class="ui header">
       <i style="color: #26ff93;" class="fad fa-waveform-path fa-2x main-logo-icon"></i>
       <b class="ui fluid inverted header main-title">Queuetify</b>
