@@ -40,5 +40,5 @@ class User
   field :email, type: String
   field :provider, type: String
   field :uid, type: String
-  field :authentication_token
+  field :authentication_token, type: String
 end
