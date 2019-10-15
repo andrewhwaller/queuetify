@@ -1,5 +1,6 @@
 class Api::V1::UsersController < ApplicationController
-  before_action :set_user, only: [:show, :update, :destroy]
+  before_action :authenticate_user!
+  before_action :set_user
 
   # GET /users
   def index
@@ -38,10 +39,15 @@ class Api::V1::UsersController < ApplicationController
     @user.destroy
   end
 
+  def spotify
+    playlists = @user.playlists
+    render json: playlists, status: 200
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_user
-      @user = User.find(params[:id])
+      @rspotify_user = RSpotify::User.new(current_user.rspotify_user_hash)
     end
 
     # Only allow a trusted parameter "white list" through.

@@ -653,3 +653,243 @@ MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[local
 MONGODB | Topology type 'Single' changed to type 'Single'.
 MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x75543300 type=uuid data=0xb1b6db44ad354cc5...>}]}
 MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Overwriting existing field email in class User.
+Started GET "/" for ::1 at 2019-10-15 17:51:43 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (8.0ms)
+Completed 200 OK in 46ms (Views: 32.2ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-15 17:55:13 -0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (3.9ms)
+Completed 200 OK in 17ms (Views: 14.2ms | MongoDB: 0.0ms)
+
+
+Started GET "/users/auth/spotify" for ::1 at 2019-10-15 17:55:21 -0500
+Started GET "/users/auth/spotify/callback?code=AQCxUp8_fQ7fEBlzyfDoAn8DlCojavq5-OKi-ww5JdXTTl_IvIP5w2svodVtTzDBVbnUyTFvU5rQ9wmzQj9h5qgtIQjAB25utUTpsH10LCGRA4KFJ0cMu1m-j38q2nIZ8RzP9Dngox9kr2p6mKWZeCmyZJkfoD53fwquwSHY_7yHkB0ReJepRaarD3MaGcBvMLo65BnMCIhn3Bj0pOXpaS8J6Y9CCBEHMonKBmBdhw39b5MHXMdF7807til8QoXROC9NgDrnohqZ_JlhCBQa5zbfoee_Zv2wxEwh5ax-2F3kqEjGX4x1O7b6_MRZz14oiJQzVp5VUHB76BUKIMaaVebOouRNxVTAswaHTqM4mgeiLRkpTYcycFkzSChibjQuBgtQZ4uK7yA9DWFyRqpySNlfUley9U1pZsW0SROQDTXkik7KkhfB-Xr5aBenKit3ym8NKjeCVZmnA5FgG_mIyz1B8CW-xU4kI7eFCfxK9mpVOsZKh9Ie-ZZ7XRNRNszq7OZ0WVER1yLphZJ4QtVDQjxVDJgyeX8CumX964M5oh3kgRWCBzkRc6MsfOIK_pf8UxJLlXGzZleBQukNNE0d-rGbSqF4ksvZ5S0-jzZb&state=47d87c9e8e48ae8ab75847c5402b1198970f62d304536491" for ::1 at 2019-10-15 17:55:21 -0500
+Processing by Users::OmniauthCallbacksController#failure as HTML
+  Parameters: {"code"=>"AQCxUp8_fQ7fEBlzyfDoAn8DlCojavq5-OKi-ww5JdXTTl_IvIP5w2svodVtTzDBVbnUyTFvU5rQ9wmzQj9h5qgtIQjAB25utUTpsH10LCGRA4KFJ0cMu1m-j38q2nIZ8RzP9Dngox9kr2p6mKWZeCmyZJkfoD53fwquwSHY_7yHkB0ReJepRaarD3MaGcBvMLo65BnMCIhn3Bj0pOXpaS8J6Y9CCBEHMonKBmBdhw39b5MHXMdF7807til8QoXROC9NgDrnohqZ_JlhCBQa5zbfoee_Zv2wxEwh5ax-2F3kqEjGX4x1O7b6_MRZz14oiJQzVp5VUHB76BUKIMaaVebOouRNxVTAswaHTqM4mgeiLRkpTYcycFkzSChibjQuBgtQZ4uK7yA9DWFyRqpySNlfUley9U1pZsW0SROQDTXkik7KkhfB-Xr5aBenKit3ym8NKjeCVZmnA5FgG_mIyz1B8CW-xU4kI7eFCfxK9mpVOsZKh9Ie-ZZ7XRNRNszq7OZ0WVER1yLphZJ4QtVDQjxVDJgyeX8CumX964M5oh3kgRWCBzkRc6MsfOIK_pf8UxJLlXGzZleBQukNNE0d-rGbSqF4ksvZ5S0-jzZb", "state"=>"47d87c9e8e48ae8ab75847c5402b1198970f62d304536491"}
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 10ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 17:55:22 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 11ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/users/auth/spotify" for ::1 at 2019-10-15 18:00:38 -0500
+Started GET "/users/auth/spotify/callback?code=AQDIwnna6bN235M9hasRrcUFasRnvvK3xo4ZdsNDs7Y2hDd5yJniQZiyXQHH_QLdIgY6XTczjVWGGbEHM8b9BT3vOhPoa17zrqEm3-UNgbv5UIrJMiN-9cMhKlRYRW01ep014qpBp09GkaU0BHkukri-HnDd_Oe0OqD4zhlQjJY8U_nyDx7igatsfe9JCWLI1DjCcIkRXeSftX1s2W3Nw0RHQuGJ2A7dSLRJVdWAStbfNrsO1vwdDvubMJ2ut15VW3Dax9CwzvIFhb2Bqok7tsGUeC9186FMd7lvefz4w04bI4MmZYr75q3N5UE7Usx-9W1iKiCa6S1f6XRb9TRKd0UeW56jAnPJH60PNW1HcuAL1HWXRvRjYOEXoIQAzkUM9XBQ5ijJJnHv1fRDyqL_RRib9xNVzYBtH22N1DAASXa8EyXOm9U6xH2OMz5GQkzeEErexTJQ7Y2XcbBMtNzr9bSGS11fBJQwZOVxbhdT4kND1sLKeABmErRUXKyo7fZZ7r2KtzPZgEUlMl3HyEa_qhaKLbfG6Wg31kmeD6ARMT4BjkKM-R4BCfXWtLYcvZcZF4OEg4jmxXUZOFSOADYZqNA3_KsKlWCrA3VvSKia&state=9f5c35dca86dce0e7a8d0e401d5acb7775e4d79eea365a75" for ::1 at 2019-10-15 18:00:38 -0500
+Processing by Users::OmniauthCallbacksController#failure as HTML
+  Parameters: {"code"=>"AQDIwnna6bN235M9hasRrcUFasRnvvK3xo4ZdsNDs7Y2hDd5yJniQZiyXQHH_QLdIgY6XTczjVWGGbEHM8b9BT3vOhPoa17zrqEm3-UNgbv5UIrJMiN-9cMhKlRYRW01ep014qpBp09GkaU0BHkukri-HnDd_Oe0OqD4zhlQjJY8U_nyDx7igatsfe9JCWLI1DjCcIkRXeSftX1s2W3Nw0RHQuGJ2A7dSLRJVdWAStbfNrsO1vwdDvubMJ2ut15VW3Dax9CwzvIFhb2Bqok7tsGUeC9186FMd7lvefz4w04bI4MmZYr75q3N5UE7Usx-9W1iKiCa6S1f6XRb9TRKd0UeW56jAnPJH60PNW1HcuAL1HWXRvRjYOEXoIQAzkUM9XBQ5ijJJnHv1fRDyqL_RRib9xNVzYBtH22N1DAASXa8EyXOm9U6xH2OMz5GQkzeEErexTJQ7Y2XcbBMtNzr9bSGS11fBJQwZOVxbhdT4kND1sLKeABmErRUXKyo7fZZ7r2KtzPZgEUlMl3HyEa_qhaKLbfG6Wg31kmeD6ARMT4BjkKM-R4BCfXWtLYcvZcZF4OEg4jmxXUZOFSOADYZqNA3_KsKlWCrA3VvSKia", "state"=>"9f5c35dca86dce0e7a8d0e401d5acb7775e4d79eea365a75"}
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 6ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:00:38 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 5ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/favicon.ico" for ::1 at 2019-10-15 18:00:38 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/users/auth/spotify" for ::1 at 2019-10-15 18:02:09 -0500
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/users/auth/spotify" for ::1 at 2019-10-15 18:02:56 -0500
+Started GET "/users/auth/spotify/callback?code=AQA0Pp0MB5P4RUbSo6zwaeB99lzNuw1g1eLVJxbArmS7JSM-eITCBrqVJW_TPJByvbNVMlsGOBVMHAZfXSAHtNeHzRRV1_bZrTj18GRTxSD3nIxdclCXXWCswS4FaijHxhxupdy3djRolLggb6BpWJRIp92ZcNApyiovaS0tGmOkoaEiTCuiV43575et146wFYWl8LDtQfNwpK78MLLQclLbjlVxRFsN07Y15ZiqYEI8ad8aLsxSPJ2mfIHgKsMgqwV7-7YAKo9V4R_rJB_Ry8-Yp77wAFuhaxzb8KVceq89oF0Wy0O0WLBCXFkWFQ-TGh0QjT_905lY5Qioapv-g1QBbxEUsOTFMtCWlJQoNpKe4AB0ZvCKTg2Zecy7tmqnfyIYcoxl-QaU-y7m3BecK48ANXxNRu8J6Xxqt4Q0p3q3CnQH8rb5wTFI2ezoyBNk9bK70sZgqknWzYSsU6xg5_Bp9nsSzsq9Qg2LkfnkvxOwvmTNKDpHAOp9_2GB3IOO7koKVmUTCI89M24u7R7pllIL-4p1XFN6jXvkgU045ayEIUdvRVizkA6aAtwgLTRwyRlZIxveCW7xrrqtz_NbmnL2-Dt19MW-TmKFUKTj&state=b349adf35ba7e86200e25147139193c1fe9ffdf3df2d78a5" for ::1 at 2019-10-15 18:02:56 -0500
+Processing by Users::OmniauthCallbacksController#failure as HTML
+  Parameters: {"code"=>"AQA0Pp0MB5P4RUbSo6zwaeB99lzNuw1g1eLVJxbArmS7JSM-eITCBrqVJW_TPJByvbNVMlsGOBVMHAZfXSAHtNeHzRRV1_bZrTj18GRTxSD3nIxdclCXXWCswS4FaijHxhxupdy3djRolLggb6BpWJRIp92ZcNApyiovaS0tGmOkoaEiTCuiV43575et146wFYWl8LDtQfNwpK78MLLQclLbjlVxRFsN07Y15ZiqYEI8ad8aLsxSPJ2mfIHgKsMgqwV7-7YAKo9V4R_rJB_Ry8-Yp77wAFuhaxzb8KVceq89oF0Wy0O0WLBCXFkWFQ-TGh0QjT_905lY5Qioapv-g1QBbxEUsOTFMtCWlJQoNpKe4AB0ZvCKTg2Zecy7tmqnfyIYcoxl-QaU-y7m3BecK48ANXxNRu8J6Xxqt4Q0p3q3CnQH8rb5wTFI2ezoyBNk9bK70sZgqknWzYSsU6xg5_Bp9nsSzsq9Qg2LkfnkvxOwvmTNKDpHAOp9_2GB3IOO7koKVmUTCI89M24u7R7pllIL-4p1XFN6jXvkgU045ayEIUdvRVizkA6aAtwgLTRwyRlZIxveCW7xrrqtz_NbmnL2-Dt19MW-TmKFUKTj", "state"=>"b349adf35ba7e86200e25147139193c1fe9ffdf3df2d78a5"}
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 1ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:02:57 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x73683260 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x73730840 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-15 23:03:17 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>138, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0560032>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x73730840 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-15 23:03:17 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>138, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0560032> new=#<Mongo::Server:Description:0x73835080 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-15 23:03:17 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>140, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.046802680000000006>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{}, "sort"=>{"_id"=>-1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x73759620 type=uuid data=0xed1c1c2f0863424e...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x73759620 type=uuid data=0xed1c1c2f0863424e...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.010s
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x73835080 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-15 23:03:17 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>140, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.046802680000000006> new=#<Mongo::Server:Description:0x83054820 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-10-15 23:03:24 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>142, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.039442264000000005>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x73759620 type=uuid data=0xed1c1c2f0863424e...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.000s
+Started GET "/" for ::1 at 2019-10-15 18:04:39 -0500
+  
+ActionController::RoutingError (uninitialized constant PlaylistsController):
+  
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `const_get'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:283:in `block in constantize'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `each'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `inject'
+activesupport (5.2.3) lib/active_support/inflector/methods.rb:281:in `constantize'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:88:in `controller_class_for'
+actionpack (5.2.3) lib/action_dispatch/http/request.rb:81:in `controller_class'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:46:in `controller'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.3) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.3) lib/action_dispatch/routing/route_set.rb:840:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/strategy.rb:192:in `call!'
+omniauth (1.9.0) lib/omniauth/strategy.rb:169:in `call'
+omniauth (1.9.0) lib/omniauth/builder.rb:64:in `call'
+rack (2.0.7) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.7) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+warden (1.2.8) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.8) lib/warden/manager.rb:34:in `catch'
+warden (1.2.8) lib/warden/manager.rb:34:in `call'
+rack (2.0.7) lib/rack/etag.rb:25:in `call'
+rack (2.0.7) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.7) lib/rack/head.rb:12:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.3) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.3) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for ::1 at 2019-10-15 18:05:03 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 401 Unauthorized in 8ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:05:04 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 3ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-15 18:05:44 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 401 Unauthorized in 4ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:05:44 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-15 18:07:00 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 401 Unauthorized in 4ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:07:00 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-15 18:07:20 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 401 Unauthorized in 4ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:07:20 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-15 18:07:35 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 401 Unauthorized in 11ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:07:35 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 4ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/" for ::1 at 2019-10-15 18:10:55 -0500
+Processing by Api::V1::PlaylistsController#index as HTML
+Completed 401 Unauthorized in 11ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:10:55 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 4ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+
+Started GET "/users/auth/spotify" for ::1 at 2019-10-15 18:11:05 -0500
+Started GET "/users/auth/spotify/callback?code=AQAfjXKQBtzaTYw7_FMQvJMBEDdrpSTtqJdE6MeqRxCMmnNlM18TcBByPB5M4TiyCPDNJS_ytjmZEGAQ8SxUY3yUsIzSMgHUZRcuEgEkDwL8sFsxH1EHmISItcKlnkZjhlszr8c0hLqBy4L_9lGk0eL3_Nu_POxPYwss3_hH2d1uPLS1pShez5HH4j0aTkKK9tg6vVPza8sUTkeXfmVQtvKlpBFzESUFY9yMJcuBgSbPh8WoWoj6B1jXpmc9aub5xDvx23eYlH8fa9MJT_LdX2cFwF4RtBiuShB6mvgVQ6sITKm7ewqi1sNIGXog2qLv_cM6-jgGyXUMpf6ccW9RwkcLFTZItAm_kKjKFwGEjoBck_n3slqaCbzg4P_J1lRS08gFDNba-eS--VuZL7k1Jmty9Zll67qivxKCCpNl8qyBgOJCVxG_dwt7DebzDtUUAnt6l_VcS09S96suR7QlXp0Oa6TKwoKHVW0XpNzlGLxu8H10a7RrSnreGDTslukhPRteLA3fuSE8aep5Qr7F-4fx9pqdfMO867QXXCCvrXdeINVr_1ieySYsL42peRMivvHbCP-CLd2a-ASy83wYaiWCwDalenWr34ocRM7j&state=fdcef2285f5f0719def52fbb2788e9b8ea192bdf11165326" for ::1 at 2019-10-15 18:11:05 -0500
+Processing by Users::OmniauthCallbacksController#failure as HTML
+  Parameters: {"code"=>"AQAfjXKQBtzaTYw7_FMQvJMBEDdrpSTtqJdE6MeqRxCMmnNlM18TcBByPB5M4TiyCPDNJS_ytjmZEGAQ8SxUY3yUsIzSMgHUZRcuEgEkDwL8sFsxH1EHmISItcKlnkZjhlszr8c0hLqBy4L_9lGk0eL3_Nu_POxPYwss3_hH2d1uPLS1pShez5HH4j0aTkKK9tg6vVPza8sUTkeXfmVQtvKlpBFzESUFY9yMJcuBgSbPh8WoWoj6B1jXpmc9aub5xDvx23eYlH8fa9MJT_LdX2cFwF4RtBiuShB6mvgVQ6sITKm7ewqi1sNIGXog2qLv_cM6-jgGyXUMpf6ccW9RwkcLFTZItAm_kKjKFwGEjoBck_n3slqaCbzg4P_J1lRS08gFDNba-eS--VuZL7k1Jmty9Zll67qivxKCCpNl8qyBgOJCVxG_dwt7DebzDtUUAnt6l_VcS09S96suR7QlXp0Oa6TKwoKHVW0XpNzlGLxu8H10a7RrSnreGDTslukhPRteLA3fuSE8aep5Qr7F-4fx9pqdfMO867QXXCCvrXdeINVr_1ieySYsL42peRMivvHbCP-CLd2a-ASy83wYaiWCwDalenWr34ocRM7j", "state"=>"fdcef2285f5f0719def52fbb2788e9b8ea192bdf11165326"}
+Redirected to http://localhost:3000/users/sign_in
+Completed 302 Found in 1ms (MongoDB: 0.0ms)
+
+
+Started GET "/users/sign_in" for ::1 at 2019-10-15 18:11:06 -0500
+Processing by Devise::SessionsController#new as HTML
+Completed 200 OK in 1ms (Views: 0.1ms | MongoDB: 0.0ms)
+
+

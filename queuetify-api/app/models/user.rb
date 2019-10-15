@@ -5,7 +5,7 @@ class User
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable,
-         :omniauthable, :omniauth_providers => [:spotify]
+         :omniauthable, omniauth_providers: [:spotify]
 
   ## Database authenticatable
   field :email,              type: String, default: ""
@@ -35,10 +35,21 @@ class User
   # field :failed_attempts, type: Integer, default: 0 # Only if lock strategy is :failed_attempts
   # field :unlock_token,    type: String # Only if unlock strategy is :email or :both
   # field :locked_at,       type: Time
-  field :first_name, type: String
-  field :last_name, type: String
-  field :email, type: String
+  field :display_name, type: String
   field :provider, type: String
   field :uid, type: String
   field :authentication_token, type: String
+  field :rspotify_user_hash, type: Hash
+
+  def self.from_omniauth(auth)
+    where(provider: auth.provider, uid: auth.uid).first_or_create do |user|
+      user.authentication_token = auth.credentials.token
+      user.refresh_token = auth.credentials.refresh_token
+      user.email = auth.info.email
+      user.display_name = auth.info.display_name
+      user.provider = auth.provider
+      user.uid = auth.uid
+      user.password = Devise.friendly_token[0,20]
+    end
+  end
 end
