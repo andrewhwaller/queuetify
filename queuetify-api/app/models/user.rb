@@ -3,7 +3,8 @@ class User
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable, :trackable and :omniauthable
   devise :database_authenticatable, :registerable,
-         :recoverable, :rememberable, :validatable
+         :recoverable, :rememberable, :validatable,
+         :omniauthable, :omniauth_providers => [:spotify]
 
   ## Database authenticatable
   field :email,              type: String, default: ""
@@ -36,4 +37,6 @@ class User
   field :first_name, type: String
   field :last_name, type: String
   field :email, type: String
+  field :provider, type: String
+  field :uid, type: String
 end

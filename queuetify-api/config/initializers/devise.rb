@@ -259,7 +259,21 @@ Devise.setup do |config|
   # ==> OmniAuth
   # Add a new OmniAuth provider. Check the wiki for more information on setting
   # up on your models and hooks.
-  # config.omniauth :github, 'APP_ID', 'APP_SECRET', scope: 'user,public_repo'
+  config.omniauth :spotify, ENV["spotify_client_id"], ENV["spotify_client_secret"], scope: %w(
+    playlist-read-collaborative
+    playlist-modify-private
+    playlist-modify-public
+    playlist-read-private
+    user-read-private
+    user-read-email
+    user-modify-playback-state
+    user-read-playback-state
+    user-read-currently-playing
+    user-read-recently-played
+    user-top-read
+    streaming
+    app-remote-control
+  ).join(' ')
 
   # ==> Warden configuration
   # If you want to use other strategies, that are not supported by Devise, or
