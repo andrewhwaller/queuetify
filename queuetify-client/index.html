@@ -11,7 +11,7 @@
     <title>Queuetify</title>
     <link rel="stylesheet" href="semantic/dist/semantic.min.css">
     <link rel="stylesheet" href="css/style.css">
-
+    <script src="https://kit.fontawesome.com/39b280393d.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   </head>
   <body>
@@ -72,14 +72,15 @@
               <i class="sidebar icon"></i>
             </a>
             <div class="item">
-              <a href="#" class="ui logo icon">
-                <i class="large green icon chevron circle right"></i>
+              <a href="#" class="ui main-logo">
+                <!-- <i class="large green icon chevron circle right"></i> -->
+                <i class="fad fa-waveform-path fa-3x main-logo-icon"></i>
               </a>
-              <a href="/">
+              <a href="/" class="main-title">
                 <b class="ui fluid inverted header">Queuetify</b>
               </a>
             </div>
-            <div class="item">
+            <div class="item main-tagline">
               <p><i>get your music in line</i></p>
             </div>
           </div>
@@ -105,10 +106,63 @@
     </nav>
     <!--main nav-->
     <div class="pusher">
-      <div class="main-content">
-        <div class="ui stackable padded grid">
+      <div class="main-content grid-background">
+        <div class="ui stackable padded relaxed grid">
         <div class="four wide computer eight wide tablet sixteen wide mobile column">
-                    <div class="ui fluid card">
+          <div class="ui inverted fluid card">
+            <div class="ui slide masked reveal image">
+              <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
+              <table class="ui padded selectable hidden content table">
+                <thead>
+                  <tr>
+                    <th class="fourteen wide">Song title</th>
+                    <th class="six wide">Length</th>                          
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td data-label="Song title">Song 1</td>
+                    <td data-label="Length">12:51</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Song title">Song 1</td>
+                    <td data-label="Length">12:51</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Song title">Song 1</td>
+                    <td data-label="Length">12:51</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Song title">Song 1</td>
+                    <td data-label="Length">12:51</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Song title">Song 1</td>
+                    <td data-label="Length">12:51</td>
+                  </tr>
+                  <tr>
+                    <td data-label="Song title">Song 1</td>
+                    <td data-label="Length">12:51</td>
+                  </tr>                      
+                </tbody>
+              </table>
+            </div>
+            <div class="content">
+              <a class="header">Playlist 1</a>
+              <div class="meta">
+                <span class="date">Created in Sep 2014</span>
+              </div>
+            </div>
+            <div class="extra content">
+              <a>
+                <i class="music icon"></i>
+                21 songs
+              </a>
+            </div>
+          </div>
+        </div>              
+        <div class="four wide computer eight wide tablet sixteen wide mobile column">
+                    <div class="ui inverted fluid card">
                       <div class="ui slide masked reveal image">
                         <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
                         <table class="ui padded selectable hidden content table">
@@ -159,62 +213,9 @@
                         </a>
                       </div>
                     </div>
-        </div>              
-        <div class="four wide computer eight wide tablet sixteen wide mobile column">
-                    <div class="ui fluid card">
-                      <div class="ui slide masked reveal image">
-                        <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
-                        <table class="ui padded selectable hidden content table">
-                          <thead>
-                            <tr>
-                              <th class="fourteen wide">Song title</th>
-                              <th class="six wide">Length</th>                          
-                            </tr>
-                          </thead>
-                          <tbody>
-                            <tr>
-                              <td data-label="Song title">Song 1</td>
-                              <td data-label="Length">12:51</td>
-                            </tr>
-                            <tr>
-                              <td data-label="Song title">Song 1</td>
-                              <td data-label="Length">12:51</td>
-                            </tr>
-                            <tr>
-                              <td data-label="Song title">Song 1</td>
-                              <td data-label="Length">12:51</td>
-                            </tr>
-                            <tr>
-                              <td data-label="Song title">Song 1</td>
-                              <td data-label="Length">12:51</td>
-                            </tr>
-                            <tr>
-                              <td data-label="Song title">Song 1</td>
-                              <td data-label="Length">12:51</td>
-                            </tr>
-                            <tr>
-                              <td data-label="Song title">Song 1</td>
-                              <td data-label="Length">12:51</td>
-                            </tr>                      
-                          </tbody>
-                        </table>
-                      </div>
-                      <div class="content">
-                        <a class="header">Playlist 1</a>
-                        <div class="meta">
-                          <span class="date">Created in Sep 2014</span>
-                        </div>
-                      </div>
-                      <div class="extra content">
-                        <a>
-                          <i class="music icon"></i>
-                          21 songs
-                        </a>
-                      </div>
-                    </div>
         </div>
         <div class="four wide computer eight wide tablet sixteen wide mobile column">
-                <div class="ui fluid card">
+                <div class="ui inverted fluid card">
                   <div class="ui slide masked reveal image">
                     <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
                     <table class="ui padded selectable hidden content table">
@@ -267,7 +268,7 @@
                 </div>
         </div>              
         <div class="four wide computer eight wide tablet sixteen wide mobile column">
-                <div class="ui fluid card">
+                <div class="ui inverted fluid card">
                   <div class="ui slide masked reveal image">
                     <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
                     <table class="ui padded selectable hidden content table">
@@ -320,7 +321,7 @@
                 </div>
         </div>
         <div class="four wide computer eight wide tablet sixteen wide mobile column">
-                <div class="ui fluid card">
+                <div class="ui inverted fluid card">
                   <div class="ui slide masked reveal image">
                     <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
                     <table class="ui padded selectable hidden content table">
@@ -373,7 +374,7 @@
                 </div>
         </div>              
         <div class="four wide computer eight wide tablet sixteen wide mobile column">
-                <div class="ui fluid card">
+                <div class="ui inverted fluid card">
                   <div class="ui slide masked reveal image">
                     <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
                     <table class="ui padded selectable hidden content table">
@@ -426,7 +427,7 @@
                 </div>
         </div>
         <div class="four wide computer eight wide tablet sixteen wide mobile column">
-                <div class="ui fluid card">
+                <div class="ui inverted fluid card">
                   <div class="ui slide masked reveal image">
                     <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
                     <table class="ui padded selectable hidden content table">
@@ -479,7 +480,7 @@
                 </div>
         </div>              
         <div class="four wide computer eight wide tablet sixteen wide mobile column">
-          <div class="ui fluid card">
+          <div class="ui inverted fluid card">
             <div class="ui slide masked reveal image">
               <img src="https://is5-ssl.mzstatic.com/image/thumb/Music6/v4/d3/d8/24/d3d82491-4952-6ce2-eaaf-669c6d8129a0/825646053803.jpg/1000x1000bb.jpeg" class="visible content">
               <table class="ui padded selectable hidden content table">
@@ -534,7 +535,21 @@
         </div>
       </div>
     </div>
+    <div class="ui menu inverted borderless bottom fixed playback-controls">
+      <div class="ui centered grid">
+        <div class="center aligned column">
+            <div class="item">
+                <div class="ui primary button">Sign up</div>
+              </div>
+              <div class="item">
+                <div class="ui button">Log-in</div>
+              </div>
+        </div>
+      </div>
+    </div>
     <script src="./js/script.js"></script>
     <script src="semantic/dist/semantic.min.js"></script>
   </body>
+  <footer>
+  </footer>
 </html>
