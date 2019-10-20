@@ -7,7 +7,7 @@ html {
 
 body {
   height: 100%;
-  overflow-y: auto;
+  overflow-y: hidden;
 }
 
 /* top menu */
@@ -63,14 +63,16 @@ nav{
 
 /* main content window */
 
-.main-content{
-  margin-top: 4rem;
-  margin-bottom: 4rem;
-  display: inline-block;
-	overflow: auto;
+.playlist-grid {
+  width: 100%;
 }
 
-body, body.pushable > .pusher{  
+body, body.pushable > .pusher{
+  display: inline-block;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  height: calc(100vh - 8rem);  
+  width: 100%;
   background: linear-gradient(224deg, #5df799, #5f22db);
   background-size: 400% 400%;
 
@@ -101,6 +103,22 @@ body, body.pushable > .pusher{
   100%{background-position:0% 50%}
 }
 
+.now-playing-container {
+  height: calc(100vh - 8rem);
+  display: block;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+.now-playing-container img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+}
 /* main content window */
 
 /* footer menu */
