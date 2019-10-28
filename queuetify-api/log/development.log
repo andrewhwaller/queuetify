@@ -2901,3 +2901,6 @@ MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[local
 MONGODB | Topology type 'Single' changed to type 'Single'.
 MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x77783240 type=uuid data=0xa81537a88c9b48fc...>}]}
 MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.001s
+Started GET "/users/auth/spotify" for ::1 at 2019-10-27 19:37:22 -0500
+Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:21:58 -0500
+Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:25:44 -0500
