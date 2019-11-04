@@ -2904,5 +2904,3 @@ MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.001s
 Started GET "/users/auth/spotify" for ::1 at 2019-10-27 19:37:22 -0500
 Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:21:58 -0500
 Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:25:44 -0500
-Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:40:48 -0500
-Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:41:00 -0500
