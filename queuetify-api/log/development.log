@@ -2904,3 +2904,456 @@ MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.001s
 Started GET "/users/auth/spotify" for ::1 at 2019-10-27 19:37:22 -0500
 Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:21:58 -0500
 Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:25:44 -0500
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | Error running ismaster on localhost:27017: Errno::ECONNREFUSED: Connection refused - connect(2) for 127.0.0.1:27017 (for 127.0.0.1:27017 (no TLS))
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x70202423431400 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x70202423450580 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-11-05 05:27:51 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>2, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.01032>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
+MONGODB | Topology type 'unknown' initializing.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[] new=Unknown[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Unknown'.
+MONGODB | EVENT: #<ServerOpening address=localhost:27017 topology=Unknown[localhost:27017]>
+MONGODB | Server localhost:27017 initializing.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x70211588754100 config={} average_round_trip_time=> new=#<Mongo::Server:Description:0x70211605907600 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-11-05 05:41:25 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>11, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.003778>>
+MONGODB | Server description for localhost:27017 changed from 'unknown' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Unknown[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Unknown' changed to type 'Single'.
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x70211605907600 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-11-05 05:41:25 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>11, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.003778> new=#<Mongo::Server:Description:0x70211583478080 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-11-05 05:41:25 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>13, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0031486>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{}, "sort"=>{"_id"=>-1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x70211583446660 type=uuid data=0x1e0207a9022a4ff3...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.001s
+MONGODB | localhost:27017 | queuetify_development.find | STARTED | {"find"=>"users", "filter"=>{}, "sort"=>{"_id"=>1}, "limit"=>1, "singleBatch"=>true, "lsid"=>{"id"=><BSON::Binary:0x70211583446660 type=uuid data=0x1e0207a9022a4ff3...>}}
+MONGODB | localhost:27017 | queuetify_development.find | SUCCEEDED | 0.001s
+MONGODB | EVENT: #<ServerDescriptionChanged address=localhost:27017 topology=Single[localhost:27017] prev=#<Mongo::Server:Description:0x70211583478080 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-11-05 05:41:25 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>13, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0031486> new=#<Mongo::Server:Description:0x70211584717740 config={"ismaster"=>true, "maxBsonObjectSize"=>16777216, "maxMessageSizeBytes"=>48000000, "maxWriteBatchSize"=>100000, "localTime"=>2019-11-05 05:41:34 UTC, "logicalSessionTimeoutMinutes"=>30, "connectionId"=>15, "minWireVersion"=>0, "maxWireVersion"=>8, "readOnly"=>false, "ok"=>1.0} average_round_trip_time=0.0026964800000000002>>
+MONGODB | Server description for localhost:27017 changed from 'standalone' to 'standalone'.
+MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[localhost:27017]>
+MONGODB | Topology type 'Single' changed to type 'Single'.
+MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x70211583446660 type=uuid data=0x1e0207a9022a4ff3...>}]}
+MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.002s
+Started GET "/users/auth/spotify" for ::1 at 2019-11-04 23:41:54 -0600
+Started GET "/users/auth/spotify" for ::1 at 2019-11-04 23:41:54 -0600
+Started GET "/users/auth/spotify" for ::1 at 2019-11-04 23:42:42 -0600
+Started GET "/users/auth/spotify" for ::1 at 2019-11-04 23:42:42 -0600
+Started GET "/" for ::1 at 2019-11-04 23:43:28 -0600
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/andrewhwaller/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/andrewhwaller/.rvm/gems/ruby-2.6.3/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb (10.8ms)
+Completed 200 OK in 54ms (Views: 36.3ms | MongoDB: 0.0ms)
+
+
+Started GET "/apple-touch-icon-precomposed.png" for ::1 at 2019-11-04 23:43:28 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/apple-touch-icon.png" for ::1 at 2019-11-04 23:43:29 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/favicon.ico" for ::1 at 2019-11-04 23:43:29 -0600
+  
+ActionController::RoutingError (No route matches [GET] "/favicon.ico"):
+  
+actionpack (5.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.3) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.3) lib/rails/rack/logger.rb:26:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.3) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+rack-cors (1.0.3) lib/rack/cors.rb:95:in `call'
+railties (5.2.3) lib/rails/engine.rb:524:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
