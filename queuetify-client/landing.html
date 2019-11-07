@@ -29,7 +29,8 @@
       -khtml-user-select: none; /* Konqueror HTML */
       -moz-user-select: none; /* Firefox */
       -ms-user-select: none; /* Internet Explorer/Edge */
-      user-select: none; /* Non-prefixed version, currently supported by Chrome and Opera */
+      user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
     }
 
     body { 
@@ -79,7 +80,8 @@
       <i>get your music in line</i>
     </div>
     <div class="spotify-login">
-      <a href="http://localhost:3000/users/auth/spotify" id="spotifyLogin" class="ui huge inverted basic button">
+      <a id="spotifyLogin" class="ui huge inverted basic button">
+        <!-- TODO add AJAX call that sends request to auth endpoint and triggers user sign in/creation, redirects to index.html on success -->
         <i class="spotify icon"></i>
           Sign in with Spotify        
       </a>
