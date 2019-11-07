@@ -2907,6 +2907,7 @@ Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:25:44 -0500
 Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:40:48 -0500
 Started GET "/users/auth/spotify" for ::1 at 2019-10-27 20:41:00 -0500
 <<<<<<< HEAD
+<<<<<<< HEAD
 Started GET "/" for ::1 at 2019-10-28 10:51:17 -0500
 Processing by Rails::WelcomeController#index as HTML
   Rendering C:/Ruby26-x64/lib/ruby/gems/2.6.0/gems/railties-5.2.3/lib/rails/templates/rails/welcome/index.html.erb
@@ -3022,5 +3023,7 @@ MONGODB | EVENT: #<TopologyChanged prev=Single[localhost:27017] new=Single[local
 MONGODB | Topology type 'Single' changed to type 'Single'.
 MONGODB | localhost:27017 | admin.endSessions | STARTED | {"endSessions"=>[{"id"=><BSON::Binary:0x62326120 type=uuid data=0x499a4e7eee4244ff...>}]}
 MONGODB | localhost:27017 | admin.endSessions | SUCCEEDED | 0.020s
+=======
+>>>>>>> parent of 94ba0822... Revert "Update application.rb"
 =======
 >>>>>>> parent of 94ba0822... Revert "Update application.rb"
