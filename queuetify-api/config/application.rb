@@ -35,11 +35,11 @@ module Queuetify
     config.middleware.use ActionDispatch::Session::CookieStore
     RSpotify::authenticate(ENV["spotify_client_id"], ENV["spotify_client_secret"])
 
-    config.middleware.insert_before 0, Rack::Cors do
-      allow do
-         origins '*'
-         resource '*', :headers => :any, :methods => [:get, :post, :options]
-       end
-    end
+    # config.middleware.insert_before 0, Rack::Cors do
+    #   allow do
+    #      origins '*'
+    #      resource '*', :headers => :any, :methods => [:get, :post, :options]
+    #    end
+    # end
   end
 end
