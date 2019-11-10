@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Started GET "/" for ::1 at 2019-10-02 13:09:02 -0500
 Started GET "/" for ::1 at 2019-10-02 13:09:02 -0500
 MONGODB | EVENT: #<TopologyOpening topology=Unknown[]>
@@ -3126,3 +3127,5 @@ puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
 puma (3.12.1) lib/puma/server.rb:474:in `process_client'
 puma (3.12.1) lib/puma/server.rb:334:in `block in run'
 puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+=======
+>>>>>>> b3410927a31ff590c83d234f74d445a6d4fa6cb3
