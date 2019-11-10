@@ -1,2 +1,4 @@
 
 *.log
+queuetify-api/log/development.log
+*.log
